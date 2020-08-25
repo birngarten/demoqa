@@ -43,3 +43,4 @@ public class TestBase {
     }
 }
 //Deneme
+//deneme_local'den reset'ten sonra
