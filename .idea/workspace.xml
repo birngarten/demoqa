@@ -23,11 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/elements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/elements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.elements.webTables">
+  <component name="RunManager" selected="TestNG.elements.textBox">
     <configuration name="elements.textBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -99,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.elements.webTables" />
         <item itemvalue="TestNG.elements.textBox" />
+        <item itemvalue="TestNG.elements.webTables" />
       </list>
     </recent_temporary>
   </component>
@@ -142,22 +141,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="86" key="FileChooserDialogImpl/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598392682340" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1598621836797">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1598627809756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598621836797" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1598621836797">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598627809756" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1598627809756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598621836797" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1598621836796">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598627809756" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1598627809756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598621836796" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1598621836797">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598627809756" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1598627809756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598621836797" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598627809756" />
     <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1598304399145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
