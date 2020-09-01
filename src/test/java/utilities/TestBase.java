@@ -18,7 +18,6 @@ public class TestBase {
     public ExtentReports extentReports;
     public ExtentTest extentTest;
     public ExtentHtmlReporter extentHtmlReporter;
-
     protected DemoqaPage demoqaPage;
     protected Actions actions;
 
