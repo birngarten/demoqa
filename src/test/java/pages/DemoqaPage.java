@@ -20,6 +20,12 @@ public class DemoqaPage {
     @FindBy(xpath = "//span[.='Text Box']")
     public WebElement textBoxMenuLink;
 
+    @FindBy(xpath = "//div[@class='main-header']")
+    public WebElement textBoxHeader;
+
+    @FindBy(id = "userForm")
+    public WebElement userForm;
+
 
 
 
