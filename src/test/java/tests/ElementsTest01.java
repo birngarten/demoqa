@@ -16,6 +16,18 @@ public class ElementsTest01 extends TestBase {
         ReusableMethods.waitFor(2);
         Assert.assertFalse(demoqaPage.textBoxMenuLink.isDisplayed());
         demoqaPage.elementsMenu.click();
+        demoqaPage.textBoxMenuLink.click();
+        Assert.assertTrue(demoqaPage.textBoxHeader.isDisplayed());
+        String actualUserForm = demoqaPage.userForm.getText();
+        System.out.println(actualUserForm);
+
+        String [] expectedUserForm = {"Full Name", "Email", "Current Address" ,
+                "Permanent Address","Submit"};
+
+        for(String w : expectedUserForm) {
+            Assert.assertTrue(actualUserForm.contains(w));
+        }
+
 
     }
 
