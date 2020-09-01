@@ -54,7 +54,24 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.ElementsTest01.textbox01">
+  <component name="RunManager" selected="TestNG.ElementsTest01">
+    <configuration name="ElementsTest01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ElementsTest01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElementsTest01.textbox01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -111,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ElementsTest01" />
         <item itemvalue="TestNG.ElementsTest01.textbox01" />
         <item itemvalue="TestNG.elements.textBox" />
         <item itemvalue="TestNG.elements.webTables" />
