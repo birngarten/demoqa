@@ -111,7 +111,7 @@ public class DemoqaPage {
     public WebElement downloadsArrow;
     @FindBy(xpath = "//span[@class='text-success']")
     public WebElement successText;
-    @FindBy(id = "yesRadio")
+    @FindBy(xpath = "//label[@for='yesRadio']")
     public WebElement radioYes;
     @FindBy(id = "impressiveRadio")
     public WebElement radioImpressive;
