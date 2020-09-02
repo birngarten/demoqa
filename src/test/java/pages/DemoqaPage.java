@@ -14,9 +14,11 @@ public class DemoqaPage {
     @FindBy(xpath = "//a[@href='https://demoqa.com']")
     public WebElement mainPage;
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[1]")
-    public WebElement elements;
+    public WebElement elementsCard;
     @FindBy(xpath = "//div[@class='main-header']")
     public WebElement elementPageHeader;
+    @FindBy(xpath = "//div[@class='header-wrapper']")
+    public WebElement elementOpen;
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[2]")
     public WebElement forms;
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[3]")
@@ -113,6 +115,8 @@ public class DemoqaPage {
     public WebElement radioYes;
     @FindBy(id = "impressiveRadio")
     public WebElement radioImpressive;
+    @FindBy(xpath = "//span[@class='text-success']")
+    public WebElement checkboxSuccesText;
     // buyrun
     //ojalksna
 }

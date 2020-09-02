@@ -18,7 +18,7 @@ public class DemoqaElementsCheckbox {
     }
     @Test
     public void fullCheckboxTest(){
-        demoqaPage.elements.click();
+        demoqaPage.elementsCard.click();
         ReusableMethods.waitFor(1);
         demoqaPage.checkBox.click();
         demoqaPage.homeArrow.click();
@@ -36,7 +36,7 @@ public class DemoqaElementsCheckbox {
 
     @Test
     public void checkboxTest(){
-        demoqaPage.elements.click();
+        demoqaPage.elementsCard.click();
         ReusableMethods.waitFor(1);
         demoqaPage.checkBox.click();
         SoftAssert softAssert = new SoftAssert();

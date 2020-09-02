@@ -27,7 +27,7 @@ public class DemoqaTests {
     }
     @Test
     public void mainLinksTest(){
-        demoqaPage.elements.click();
+        demoqaPage.elementsCard.click();
         SoftAssert asserttion1 = new SoftAssert();
         asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Elements"));
         Driver.getDriver().navigate().back();
@@ -53,7 +53,7 @@ public class DemoqaTests {
     }
     @Test
     public void positiveElementsTextBoxTest(){
-        demoqaPage.elements.click();
+        demoqaPage.elementsCard.click();
         demoqaPage.textBox.click();
         ReusableMethods.waitFor(2);
         demoqaPage.fullnameTextBox.sendKeys(ConfigReader.getProperty("name"));
@@ -74,7 +74,7 @@ public class DemoqaTests {
     }
     @Test
     public void negativeElementsTextBoxTest(){
-        demoqaPage.elements.click();
+        demoqaPage.elementsCard.click();
         demoqaPage.textBox.click();
         ReusableMethods.waitFor(2);
         demoqaPage.fullnameTextBox.sendKeys(ConfigReader.getProperty("name"));

@@ -23,7 +23,7 @@ public class TestBase {
 
     @BeforeMethod
     public void setup() {
-        Driver.getDriver().get(ConfigReader.getProperty("demoqa_url"));
+        Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
         demoqaPage = new DemoqaPage();
         actions = new Actions(Driver.getDriver());
         Driver.getDriver().manage().window().maximize();
