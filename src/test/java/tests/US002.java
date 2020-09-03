@@ -119,5 +119,6 @@ public class US002  {
            checkBoxElement.click();
        }
        System.out.println(succesText);
+       Assert.assertTrue(succesText.size()==17);
     }
 }

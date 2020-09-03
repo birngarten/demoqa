@@ -37,6 +37,7 @@ public class US003 {
     public void tc014(){
         demoqaPage.elementsCard.click();
         demoqaPage.radioButton.click();
+        demoqaPage.radioYes.click();
         ReusableMethods.waitFor(2);
         demoqaPage.radioImpressive.click();
     }
