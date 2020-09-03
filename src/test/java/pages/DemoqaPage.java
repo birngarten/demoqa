@@ -35,8 +35,7 @@ public class DemoqaPage {
     public WebElement checkBox;
     @FindBy(id = "item-2")
     public WebElement radioButton;
-    @FindBy(id = "item-4")
-    public WebElement webTables;
+
     @FindBy(id = "item-5")
     public WebElement buttons;
     @FindBy(id = "item-6")
@@ -57,6 +56,8 @@ public class DemoqaPage {
     public WebElement permanentAdressTextBox;
     @FindBy(id = "submit")
     public WebElement submitButton;
+    @FindBy(xpath = "//p")
+    public WebElement afterSubmitTextBox;
     @FindBy(xpath = "//p[@id='name']")
     public WebElement resultName;
     @FindBy(xpath = "//p[@id='email']")

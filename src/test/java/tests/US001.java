@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -7,6 +8,9 @@ import pages.DemoqaPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class US001 {
     DemoqaPage demoqaPage = new DemoqaPage();
@@ -36,6 +40,41 @@ public class US001 {
         String arr[]= {"Full Name", "Email", "Current Address" ,  "Permanent Address", "Submit"};
         for (String w:arr) {
             Assert.assertTrue(demoqaPage.textBoxForm.getText().contains(w));
+        }
+        //- Full Name, Email, Current Address , Permanent Address, text boxlarina veri
+        //girilebilir olmali.
+
+        for(int i =1; i<6; i++){
+            demoqaPage.userEmailTextbox.sendKeys(ConfigReader.getProperty("demoqa_email_false"+i));
+            ReusableMethods.waitFor(1);
+            demoqaPage.submitButton.click();
+            Assert.assertTrue(demoqaPage.userEmailTextboxError.isDisplayed());
+            ReusableMethods.waitFor(2);
+            demoqaPage.userEmailTextbox.clear();
+        }
+        Assert.assertTrue(demoqaPage.submitButton.isEnabled());
+    }
+    @Test
+    public void tc004(){
+            demoqaPage.elementsCard.click();
+            demoqaPage.textBox.click();
+//            demoqaPage.fullnameTextBox.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
+//            demoqaPage.submitButton.click();
+//            Assert.assertTrue(demoqaPage.afterSubmitTextBox.getText().contains(ConfigReader.getProperty("demoqa_test_data")));
+//            demoqaPage.fullnameTextBox.clear();
+//            ReusableMethods.waitFor(1);
+        List<WebElement>textBoxes = new ArrayList<>();
+        textBoxes.add(demoqaPage.fullnameTextBox);
+        textBoxes.add(demoqaPage.currentadressTextBox);
+        textBoxes.add(demoqaPage.permanentAdressTextBox);
+
+        for (WebElement w:textBoxes) {
+            w.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
+            demoqaPage.submitButton.click();
+            Assert.assertTrue(demoqaPage.afterSubmitTextBox.getText().contains(ConfigReader.getProperty("demoqa_test_data")));
+            w.clear();
+            ReusableMethods.waitFor(1);
+
         }
     }
 }
