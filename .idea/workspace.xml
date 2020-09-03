@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.US003.tc014">
-    <configuration name="US002.tc008v2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US001.tc003">
+    <configuration name="US001.tc001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +67,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US002" />
-      <option name="METHOD_NAME" value="tc008v2" />
+      <option name="MAIN_CLASS_NAME" value="tests.US001" />
+      <option name="METHOD_NAME" value="tc001" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US003.tc011" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001.tc002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US003" />
-      <option name="METHOD_NAME" value="tc011" />
+      <option name="MAIN_CLASS_NAME" value="tests.US001" />
+      <option name="METHOD_NAME" value="tc002" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US003.tc012" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US001.tc003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +103,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US003" />
-      <option name="METHOD_NAME" value="tc012" />
+      <option name="MAIN_CLASS_NAME" value="tests.US001" />
+      <option name="METHOD_NAME" value="tc003" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US001.tc003" />
+        <item itemvalue="TestNG.US001.tc002" />
+        <item itemvalue="TestNG.US001.tc001" />
         <item itemvalue="TestNG.US003.tc014" />
         <item itemvalue="TestNG.US003.tc013" />
-        <item itemvalue="TestNG.US003.tc012" />
-        <item itemvalue="TestNG.US003.tc011" />
-        <item itemvalue="TestNG.US002.tc008v2" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +193,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598390075074" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599129520622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599129520622" />
     <state x="723" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599001182884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,26 +209,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="86" key="FileChooserDialogImpl/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598392682340" />
-    <state width="1876" height="243" key="GridCell.Tab.0.bottom" timestamp="1599078893610">
+    <state width="1876" height="243" key="GridCell.Tab.0.bottom" timestamp="1599130256839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598995988696" />
-    <state width="1876" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599078893610" />
-    <state width="1876" height="243" key="GridCell.Tab.0.center" timestamp="1599078893609">
+    <state width="1876" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1599084716464" />
+    <state width="1876" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599130256839" />
+    <state width="1876" height="243" key="GridCell.Tab.0.center" timestamp="1599130256839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598995988696" />
-    <state width="1876" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599078893609" />
-    <state width="1876" height="243" key="GridCell.Tab.0.left" timestamp="1599078893609">
+    <state width="1876" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1599084716464" />
+    <state width="1876" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599130256839" />
+    <state width="1876" height="243" key="GridCell.Tab.0.left" timestamp="1599130256839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598995988696" />
-    <state width="1876" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599078893609" />
-    <state width="1876" height="243" key="GridCell.Tab.0.right" timestamp="1599078893609">
+    <state width="1876" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1599084716463" />
+    <state width="1876" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599130256839" />
+    <state width="1876" height="243" key="GridCell.Tab.0.right" timestamp="1599130256839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598995988696" />
-    <state width="1876" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599078893609" />
+    <state width="1876" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1599084716464" />
+    <state width="1876" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1599130256839" />
     <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1598304399145">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

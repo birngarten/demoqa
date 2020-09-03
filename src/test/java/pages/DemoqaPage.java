@@ -43,6 +43,8 @@ public class DemoqaPage {
     public WebElement uploadAndDownload;
     @FindBy(id = "item-7")
     public WebElement dynamicProperties;
+    @FindBy(id = "userForm")
+    public WebElement textBoxForm;
     @FindBy(id = "userName")
     public WebElement fullnameTextBox;
     @FindBy(id = "userEmail")
