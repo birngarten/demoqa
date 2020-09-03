@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import pages.TC01_TC04_Page;
+import pages.US_01_Page;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -20,14 +20,14 @@ public class TestBase {
     public ExtentTest extentTest;
     public ExtentHtmlReporter extentHtmlReporter;
 
-    protected TC01_TC04_Page demoqaPage;
+    protected US_01_Page us01Page;
     protected Actions actions;
     protected WebDriverWait wait;
 
     @BeforeMethod
     public void setup() {
         Driver.getDriver().get(ConfigReader.getProperty("demoqa_url"));
-        demoqaPage = new TC01_TC04_Page();
+        us01Page = new US_01_Page();
         actions = new Actions(Driver.getDriver());
         wait = new WebDriverWait(Driver.getDriver(),20);
         Driver.getDriver().manage().window().maximize();
