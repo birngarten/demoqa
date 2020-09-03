@@ -14,7 +14,7 @@ public class DemogaWebTablesButtonsLinksPage {
     public WebElement mainPage;
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[1]")
     public WebElement elementsCard;
-    @FindBy(id = "item-4")
+    @FindBy(id = "item-3")
     public WebElement webTables;
 
 }

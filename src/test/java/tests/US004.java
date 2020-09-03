@@ -17,7 +17,6 @@ public class US004 {
     public void tc016(){
         demogaWebTablesButtonsLinksPage.elementsCard.click();
         demogaWebTablesButtonsLinksPage.webTables.click();
-
     }
 
 
