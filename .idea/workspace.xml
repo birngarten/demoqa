@@ -26,9 +26,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/US_02_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US_02_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_02_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_02_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,29 +58,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.ElementsTest01"></component>
-    <configuration name="ElementsTest01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ElementsTest01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementsTest01.textbox01" type="TestNG" temporary="true" nameIsGenerated="true">
-
-    </configuration>
-  <component name="RunManager" selected="TestNG.US_01_Test"/>
-    <configuration name="US_01_Test" type="TestNG" temporary="true" nameIsGenerated="true"/>
   <component name="RunManager" selected="TestNG.US_03_Test.TC_13">
     <configuration name="US_02_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />

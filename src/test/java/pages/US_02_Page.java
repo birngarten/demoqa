@@ -1,10 +1,10 @@
 package pages;
 
-
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
@@ -20,7 +20,5 @@ public class US_02_Page {
 
     @FindBy(xpath = "//div[@class='main-header']")
     public WebElement checkBoxHeader;
-
-
 
 }
