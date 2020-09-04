@@ -1,6 +1,5 @@
 package tests;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -10,7 +9,6 @@ import utilities.Driver;
 import utilities.TestBase;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class US_02_Test extends TestBase {
