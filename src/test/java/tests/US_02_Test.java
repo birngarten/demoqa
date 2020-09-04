@@ -24,8 +24,8 @@ public class US_02_Test extends TestBase {
 
     @Test
     public void TC_07() {
-        // Samet beyden alinacak.
-        // Duzenleme yapilacak.
+
+
     }
 
     @Test
