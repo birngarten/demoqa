@@ -17,4 +17,7 @@ public class US_02_Page {
     @FindBy(xpath = "//div[@class='main-header']")
     public WebElement checkBoxHeader;
 
+    @FindBy(xpath = "//button[@title='Expand all']")
+    public WebElement expandAllButton;
+
 }
