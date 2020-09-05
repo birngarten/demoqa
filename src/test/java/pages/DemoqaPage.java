@@ -16,7 +16,7 @@ public class DemoqaPage {
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[1]")
     public WebElement elementsCard;
     @FindBy(xpath = "//div[@class='main-header']")
-    public WebElement elementPageHeader;
+    public WebElement PageHeader;
     @FindBy(xpath = "//div[@class='header-wrapper']")
     public WebElement elementOpen;
     @FindBy(xpath = "(//div[@class='avatar mx-auto white'])[2]")
@@ -36,8 +36,7 @@ public class DemoqaPage {
     @FindBy(id = "item-2")
     public WebElement radioButton;
 
-    @FindBy(id = "item-5")
-    public WebElement buttons;
+
     @FindBy(id = "item-6")
     public WebElement uploadAndDownload;
     @FindBy(id = "item-7")

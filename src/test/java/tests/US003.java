@@ -24,7 +24,7 @@ public class US003 {
     public void tc012(){
         demoqaPage.elementsCard.click();
         demoqaPage.radioButton.click();
-        Assert.assertTrue(demoqaPage.elementPageHeader.getText().equals("Radio Button"));
+        Assert.assertTrue(demoqaPage.PageHeader.getText().equals("Radio Button"));
     }
     @Test
     public void tc013(){

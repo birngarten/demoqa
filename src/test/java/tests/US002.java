@@ -10,7 +10,6 @@ import pages.DemoqaPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
-import utilities.TestBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +35,7 @@ public class US002  {
     public void tc006(){
         demoqaPage.elementsCard.click();
         demoqaPage.checkBox.click();
-        Assert.assertTrue(demoqaPage.elementPageHeader.getText().equals("Check Box"));
+        Assert.assertTrue(demoqaPage.PageHeader.getText().equals("Check Box"));
     }
     @Test
     public void tc007(){

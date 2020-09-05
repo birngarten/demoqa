@@ -29,7 +29,7 @@ public class US001 {
     public void tc002(){
         demoqaPage.elementsCard.click();
         demoqaPage.textBox.click();
-        Assert.assertTrue(demoqaPage.elementPageHeader.getText().equals("Text Box"));
+        Assert.assertTrue(demoqaPage.PageHeader.getText().equals("Text Box"));
     }
     @Test
     public void tc003(){

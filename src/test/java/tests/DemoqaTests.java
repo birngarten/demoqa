@@ -29,25 +29,25 @@ public class DemoqaTests {
     public void mainLinksTest(){
         demoqaPage.elementsCard.click();
         SoftAssert asserttion1 = new SoftAssert();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Elements"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Elements"));
         Driver.getDriver().navigate().back();
         demoqaPage.forms.click();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Forms"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Forms"));
         Driver.getDriver().navigate().back();
         demoqaPage.alersFrameAndWindows.click();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Alerts, Frame & Windows"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Alerts, Frame & Windows"));
         Driver.getDriver().navigate().back();
         demoqaPage.widgets.click();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Widgets"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Widgets"));
         Driver.getDriver().navigate().back();
         demoqaPage.interactions.click();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Interactions"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Interactions"));
         Driver.getDriver().navigate().back();
         ReusableMethods.waitFor(2);
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         demoqaPage.bookStoreAplication.click();
-        asserttion1.assertTrue(demoqaPage.elementPageHeader.getText().equals("Book Store"));
+        asserttion1.assertTrue(demoqaPage.PageHeader.getText().equals("Book Store"));
         Driver.getDriver().navigate().back();
         asserttion1.assertAll();
     }

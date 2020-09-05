@@ -5,6 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DemogaWebTablesButtonsLinksPage {
     public DemogaWebTablesButtonsLinksPage(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -44,7 +47,30 @@ public class DemogaWebTablesButtonsLinksPage {
     public WebElement deleteSecondData;
     @FindBy(xpath = "(//div[@class='rt-tr-group'])[2]")
     public WebElement secondData;
+    @FindBy(id = "item-4")
+    public WebElement buttons;
+    @FindBy(xpath = "//div[@class='main-header']")
+    public WebElement pagePageHeader;
+    @FindBy(id = "doubleClickBtn")
+    public WebElement doubleClickButton;
+    @FindBy (id = "rightClickBtn")
+    public WebElement rightClickButton;
+    @FindBy (xpath = "(//button[@class='btn btn-primary'])[3]")
+    public WebElement clickMeButton;
 
+    public List<WebElement> buttonsReturn (){
+        List<WebElement> buttons = new ArrayList<>();
+        buttons.add(doubleClickButton);
+        buttons.add(rightClickButton);
+        buttons.add(clickMeButton);
+        return buttons;
+    }
+    @FindBy (id = "doubleClickMessage")
+    public WebElement doubleClickMessage;
+    @FindBy (id = "rightClickMessage")
+    public WebElement rightClickMessage;
+    @FindBy (id = "dynamicClickMessage")
+    public WebElement dynamicClickMessage;
 
 
 
