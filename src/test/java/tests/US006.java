@@ -11,4 +11,5 @@ public class US006 {
     public void stars(){
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
     }
+
 }
