@@ -71,5 +71,12 @@ public class US007 {
         System.out.println(idValues);
         Assert.assertEquals(10,idValues.size());
     }
+    @Test
+    public void tc033(){
+        DemoqaPage demoqaPage = new DemoqaPage();
+        demoqaPage.elementsCard.click();
+        demoqaDynamicPage.dynamicProperties.click();
+        Assert.assertTrue();
+    }
 
 }
