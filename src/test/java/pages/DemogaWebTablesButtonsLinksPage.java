@@ -71,6 +71,14 @@ public class DemogaWebTablesButtonsLinksPage {
     public WebElement rightClickMessage;
     @FindBy (id = "dynamicClickMessage")
     public WebElement dynamicClickMessage;
+    @FindBy(id = "item-5")
+    public WebElement links;
+    @FindBy(id = "simpleLink")
+    public WebElement simpleLink;
+    @FindBy(id = "moved")
+    public WebElement modevLink;
+    @FindBy(xpath = "(//b)[1]")
+    public WebElement statusCode;
 
 
 

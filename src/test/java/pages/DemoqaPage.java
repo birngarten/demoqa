@@ -37,10 +37,8 @@ public class DemoqaPage {
     public WebElement radioButton;
 
 
-    @FindBy(id = "item-6")
-    public WebElement uploadAndDownload;
-    @FindBy(id = "item-7")
-    public WebElement dynamicProperties;
+
+
     @FindBy(id = "userForm")
     public WebElement textBoxForm;
     @FindBy(id = "userName")
