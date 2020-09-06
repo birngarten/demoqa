@@ -113,7 +113,7 @@ public class DemoqaPage {
     public WebElement successText;
     @FindBy(xpath = "//label[@for='yesRadio']")
     public WebElement radioYes;
-    @FindBy(id = "impressiveRadio")
+    @FindBy(xpath = "//label[for='impressiveRadio']")
     public WebElement radioImpressive;
     @FindBy(xpath = "//span[@class='text-success']")
     public WebElement checkboxSuccesText;

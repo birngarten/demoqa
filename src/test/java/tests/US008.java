@@ -66,6 +66,5 @@ public class US008 {
         //Assert.assertFalse(uploadDynamicPage.visibleAfterButton.isDisplayed());
         ReusableMethods.waitFor(6);
         Assert.assertTrue(uploadDynamicPage.visibleAfterButton.isEnabled());
-
     }
 }
