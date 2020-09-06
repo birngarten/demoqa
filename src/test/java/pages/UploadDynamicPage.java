@@ -18,7 +18,13 @@ public class UploadDynamicPage {
     public WebElement dynamicProperties;
     @FindBy(xpath = "//*[.='This text has random Id']")
     public WebElement dynamicText;
-    @FindBy
+    @FindBy(id = "enableAfter")
+    public WebElement enableAfterButton;
+    @FindBy(id = "colorChange")
+    public WebElement colorChangeButton;
+    @FindBy(id = "visibleAfter")
+    public WebElement visibleAfterButton;
+
 
 
 }

@@ -21,8 +21,10 @@ public class US006 {
     public void tc025(){
         demogaWebTablesButtonsLinksPage.elementsCard.click();
         demogaWebTablesButtonsLinksPage.links.click();
-        Assert.assertEquals(demogaWebTablesButtonsLinksPage.pagePageHeader,"Links");
+        Assert.assertEquals(demogaWebTablesButtonsLinksPage.pagePageHeader.getText(),"Links");
         //text renginin gri olduğu assert edilmeli
+        //Assert.assertEquals(demogaWebTablesButtonsLinksPage.pagePageHeader.getCssValue("color"),"#AAA");
+
     }
     @Test
     public void tc026(){
