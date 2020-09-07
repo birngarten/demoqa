@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -73,11 +74,33 @@ public class US_02_Test extends TestBase {
 
     @Test
     public void TC_09() {
-        //Samet Beyden alinacak
+        us01Page.elementsCard.click();
+        us02Page.checkboxMenuLink.click();
+        us02Page.expandAllButton.click();
+
+        for(int i =1; i<=17; i++ ) {
+            String xpathInput= "(//input)[" + i + "]";
+            WebElement checkbox = Driver.getDriver().findElement(By.xpath(xpathInput));
+            JavascriptExecutor jsExecuter = (JavascriptExecutor) Driver.getDriver();
+            jsExecuter.executeScript("arguments[0].click();",checkbox);
+        }
     }
 
     @Test
     public void TC_10() {
-        //Samet Beyden alinacak
+        us01Page.elementsCard.click();
+        us02Page.checkboxMenuLink.click();
+        us02Page.expandAllButton.click();
+
+        for(int i =1; i<=17; i++ ) {
+            String xpathInput= "(//input)[" + i + "]";
+            WebElement checkbox = Driver.getDriver().findElement(By.xpath(xpathInput));
+            JavascriptExecutor jsExecuter = (JavascriptExecutor) Driver.getDriver();
+            jsExecuter.executeScript("arguments[0].click();",checkbox);
+//            Assert.assertTrue(us02Page.succesText.isDisplayed());
+            System.out.println("Secili olan checkboxlar: " + us02Page.allSuccesText.size());
+            Assert.assertTrue(us02Page.allSuccesText.size()>0);
+        }
+
     }
 }
