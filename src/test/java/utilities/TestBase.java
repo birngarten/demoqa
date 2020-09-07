@@ -18,13 +18,12 @@ public class TestBase {
     public ExtentReports extentReports;
     public ExtentTest extentTest;
     public ExtentHtmlReporter extentHtmlReporter;
-
     protected DemoqaPage demoqaPage;
     protected Actions actions;
 
     @BeforeMethod
     public void setup() {
-        Driver.getDriver().get(ConfigReader.getProperty("demoqa_url"));
+        Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
         demoqaPage = new DemoqaPage();
         actions = new Actions(Driver.getDriver());
         Driver.getDriver().manage().window().maximize();
