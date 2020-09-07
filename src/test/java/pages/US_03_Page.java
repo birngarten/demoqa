@@ -36,4 +36,7 @@ public class US_03_Page {
         return allRButton;
     }
 
+    @FindBy(xpath = "//span[@class='text-success']")
+    public WebElement succesText;
+
 }
