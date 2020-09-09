@@ -44,4 +44,13 @@ public class US_04_Page {
     @FindBy(xpath = "//div[@class='rt-tr -odd']")
     public  WebElement firstSatir;
 
+    @FindBy(id = "edit-record-1")
+    public WebElement editButton;
+
+    @FindBy(id = "delete-record-2")
+    public WebElement deleteButton;
+
+    @FindBy(xpath = "//div[.='No rows found']")
+    public WebElement noRowsText;
+
 }

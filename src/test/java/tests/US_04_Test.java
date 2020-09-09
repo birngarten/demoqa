@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,6 +10,9 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 import utilities.TestBase;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class US_04_Test extends TestBase {
     US_04_Page us_04_page=new US_04_Page();
@@ -69,4 +73,29 @@ public class US_04_Test extends TestBase {
         Assert.assertEquals(hataRengiHex,"#dc3545");
 
     }
+
+    @Test
+    public void TC020() {
+        us01Page.elementsCard.click();
+        us_04_page.webtableMenuLink.click();
+        us_04_page.editButton.click();
+        us_04_page.firstNameTextBox.clear();
+        us_04_page.firstNameTextBox.sendKeys("Sureyya");
+        us_04_page.submitButton.click();
+        us_04_page.searchTextBox.sendKeys("Sureyya");
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us_04_page.firstSatir.getText().contains("Sureyya"));
+    }
+
+    @Test
+    public void TC021() {
+        us01Page.elementsCard.click();
+        us_04_page.webtableMenuLink.click();
+        us_04_page.searchTextBox.sendKeys("Alden");
+        us_04_page.deleteButton.click();
+        Assert.assertTrue(us_04_page.noRowsText.isDisplayed());
+    }
+
+
+
 }
