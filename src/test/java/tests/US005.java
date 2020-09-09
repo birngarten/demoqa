@@ -59,5 +59,4 @@ public class US005 {
         Assert.assertTrue(results.contains("You have done a dynamic click"));
         Assert.assertTrue(results.contains("You have done a double click"));
     }
-
 }
