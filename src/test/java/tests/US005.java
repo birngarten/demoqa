@@ -24,7 +24,9 @@ public class US005 {
         demogaWebTablesButtonsLinksPage.elementsCard.click();
         demogaWebTablesButtonsLinksPage.buttons.click();
         Assert.assertTrue(demogaWebTablesButtonsLinksPage.pagePageHeader.getText().equals("Buttons"));
-        //front-weight degerini alamadik
+        String  frontHeader = demogaWebTablesButtonsLinksPage.pagePageHeader.getCssValue("font-weight");
+        Assert.assertEquals(frontHeader,"300");
+        //front-weight degeri assert etme
     }
     @Test
     public void tc023(){
