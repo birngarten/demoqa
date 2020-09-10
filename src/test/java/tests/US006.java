@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -7,6 +8,7 @@ import pages.DemogaWebTablesButtonsLinksPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
+
 
 import java.util.Iterator;
 import java.util.Set;
@@ -22,10 +24,11 @@ public class US006 {
         demogaWebTablesButtonsLinksPage.elementsCard.click();
         demogaWebTablesButtonsLinksPage.links.click();
         Assert.assertEquals(demogaWebTablesButtonsLinksPage.pagePageHeader.getText(),"Links");
-        //text renginin gri olduğu assert edilmeli
-        //Assert.assertEquals(demogaWebTablesButtonsLinksPage.pagePageHeader.getCssValue("color"),"#AAA");
-
-    }
+        String colorValue = demogaWebTablesButtonsLinksPage.pagePageHeader.getCssValue("color");
+        String colorHex = Color.fromString(colorValue).asHex();
+        System.out.println(colorHex);
+        Assert.assertEquals(colorHex,"#aaaaaa");
+        }
     @Test
     public void tc026(){
         demogaWebTablesButtonsLinksPage.elementsCard.click();
