@@ -38,7 +38,5 @@ public class US_05_Test extends TestBase {
         Assert.assertEquals(us_05_page.dynamicClickMessage.getText(),"You have done a dynamic click");
     }
 
-    @Test
-    public void TC025() {
-    }
+
 }
