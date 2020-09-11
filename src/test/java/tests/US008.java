@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -22,14 +24,19 @@ public class US008 {
     @Test
     public void tc032(){
         DemoqaPage demoqaPage = new DemoqaPage();
-        demoqaPage.elementsCard.click();
+        uploadDynamicPage.element.click();
+        ReusableMethods.waitFor(2);
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.ARROW_DOWN).perform();
         uploadDynamicPage.dynamicProperties.click();
         String idValue = uploadDynamicPage.dynamicText.getAttribute("id");
         List<String> idValues = new ArrayList<>();
         for(int i=1;i<11;i++){
-            Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
-            demoqaPage.elementsCard.click();
-            uploadDynamicPage.dynamicProperties.click();
+//            Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
+//            demoqaPage.elementsCard.click();
+//            ReusableMethods.waitFor(1);
+//            uploadDynamicPage.dynamicProperties.click();
+                Driver.getDriver().navigate().refresh();
             String idValue2 = uploadDynamicPage.dynamicText.getAttribute("id");
             if(!idValue.equals(idValue2)) {
                 idValues.add(idValue2);

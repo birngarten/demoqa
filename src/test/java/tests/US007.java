@@ -40,13 +40,21 @@ public class US007 {
         DemoqaPage demoqaPage = new DemoqaPage();
         demoqaPage.elementsCard.click();
         uploadDynamicPage.uploadAndDownload.click();
+        Assert.assertTrue(uploadDynamicPage.uploadFile.isEnabled());
         //dosya yukleme yapamadik
     }
     @Test
     public void tc031(){
         DemoqaPage demoqaPage = new DemoqaPage();
         demoqaPage.elementsCard.click();
-        Assert.assertTrue(uploadDynamicPage.uploadAndDownload.isEnabled());
+        uploadDynamicPage.uploadAndDownload.click();
+        //Assert.assertTrue(uploadDynamicPage.uploadAndDownload.isEnabled());
+        ReusableMethods.waitFor(2);
+        //uploadDynamicPage.uploadFile.click();
+        ReusableMethods.waitFor(1);
+        String filePath2 = "C:\\Users\\sam\\Downloads\\sampleFile.jpeg";
+        uploadDynamicPage.uploadAndDownload.sendKeys(filePath2);
+
     }
 
 

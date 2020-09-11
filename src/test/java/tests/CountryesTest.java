@@ -62,11 +62,10 @@ public class CountryesTest {
                 ReusableMethods.waitFor(1);
                 actions.build().perform();
                 i++;
-            }
+                }
             }
         }
         Assert.assertTrue(cityes.size()==0);
-
     }
 
 }
