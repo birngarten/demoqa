@@ -41,7 +41,9 @@ public class US007 {
         demoqaPage.elementsCard.click();
         uploadDynamicPage.uploadAndDownload.click();
         Assert.assertTrue(uploadDynamicPage.uploadFile.isEnabled());
+        String filePath = "C:\\Users\\sam\\Downloads\\sampleFile.jpeg";
         //dosya yukleme yapamadik
+        uploadDynamicPage.uploadFile.sendKeys();
     }
     @Test
     public void tc031(){
