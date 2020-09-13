@@ -29,6 +29,12 @@ public class FormsPage {
     public WebElement userTelefonNUmber;
     @FindBy(id = "example-modal-sizes-title-lg")
     public WebElement succesTitle;
+    @FindBy(id = "userEmail")
+    public WebElement userEmailBox;
+    @FindBy(xpath = "(//label[@class='custom-control-label'])[4]")
+    public WebElement sportsCheckBox;
+    @FindBy(id = "uploadPicture")
+    public WebElement uploadFile;
 
 
 
