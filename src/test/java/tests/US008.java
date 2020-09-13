@@ -16,6 +16,7 @@ import java.util.List;
 
 public class US008 {
     UploadDynamicPage uploadDynamicPage = new UploadDynamicPage();
+    Actions actions = new Actions(Driver.getDriver());
     @BeforeTest
     public void stars(){
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
@@ -69,9 +70,11 @@ public class US008 {
     public void tc035(){
         DemoqaPage demoqaPage = new DemoqaPage();
         demoqaPage.elementsCard.click();
+        actions.sendKeys(Keys.ARROW_DOWN).perform();
+        ReusableMethods.waitFor(1);
         uploadDynamicPage.dynamicProperties.click();
         //Assert.assertFalse(uploadDynamicPage.visibleAfterButton.isDisplayed());
-        ReusableMethods.waitFor(6);
+        ReusableMethods.waitFor(5);
         Assert.assertTrue(uploadDynamicPage.visibleAfterButton.isEnabled());
     }
 }

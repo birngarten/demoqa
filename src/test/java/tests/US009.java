@@ -111,7 +111,17 @@ public class US009 {
         formsPage.maleButton.click();
         formsPage.userTelefonNUmber.sendKeys("1234567890");
         formsPage.sportsCheckBox.click();
-        formsPage.uploadFile.sendKeys("C:/Users/SAM/Desktop/New Text Document.tx");
-        //en son burada kaldık
+        formsPage.uploadFile.sendKeys("C:\\Users\\SAM\\Desktop\\New Text Document.txt");
+        formsPage.currentAdressTextBox.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
+        formsPage.stateDropbox.click();
+        ReusableMethods.waitFor(1);
+        formsPage.stateInformationPlace.sendKeys("Haryana");
+        //formsPage.stateDropbox.submit();
+        ReusableMethods.waitFor(1);
+        formsPage.cityDropbox.click();
+        ReusableMethods.waitFor(1);
+        formsPage.stateInformationPlace.sendKeys("Karnal");
+        formsPage.cityDropbox.submit();
+        //sehir seçicimde hata var
     }
 }

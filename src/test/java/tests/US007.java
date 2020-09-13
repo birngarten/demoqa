@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -43,7 +45,8 @@ public class US007 {
         Assert.assertTrue(uploadDynamicPage.uploadFile.isEnabled());
         String filePath = "C:\\Users\\sam\\Downloads\\sampleFile.jpeg";
         //dosya yukleme yapamadik
-        uploadDynamicPage.uploadFile.sendKeys();
+        uploadDynamicPage.uploadFile.sendKeys(filePath);
+        Assert.assertTrue(uploadDynamicPage.uploadedFilePath.isDisplayed());
     }
     @Test
     public void tc031(){
@@ -56,7 +59,6 @@ public class US007 {
         ReusableMethods.waitFor(1);
         String filePath2 = "C:\\Users\\sam\\Downloads\\sampleFile.jpeg";
         uploadDynamicPage.uploadAndDownload.sendKeys(filePath2);
-
     }
 
 

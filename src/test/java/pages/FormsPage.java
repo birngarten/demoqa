@@ -35,6 +35,17 @@ public class FormsPage {
     public WebElement sportsCheckBox;
     @FindBy(id = "uploadPicture")
     public WebElement uploadFile;
+    @FindBy (id = "currentAddress")
+    public WebElement currentAdressTextBox;
+    @FindBy(xpath = "//div[@class=' css-1wa3eu0-placeholder']")
+    public WebElement stateDropbox;
+    @FindBy(id ="react-select-3-input")
+    public WebElement stateInformationPlace;
+    @FindBy(xpath = "(//div[@class=' css-1hwfws3'])[2]")
+    public WebElement cityDropbox;
+    @FindBy(id = "react-select-4-input")
+    public WebElement cityInformationPlace;
+
 
 
 

@@ -28,6 +28,9 @@ public class UploadDynamicPage {
     public WebElement visibleAfterButton;
     @FindBy(xpath = "//input[@id='uploadFile']")
     public WebElement uploadFile;
+    @FindBy(id = "uploadedFilePath")
+    public WebElement uploadedFilePath;
+
 
 
 
