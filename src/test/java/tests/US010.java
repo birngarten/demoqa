@@ -53,4 +53,9 @@ public class US010 {
         softAssert.assertTrue(us010.newWindowMessageButton.isDisplayed());
         softAssert.assertAll();
     }
+    @Test
+    public void tc046(){
+        us010.alersFrameAndWindows.click();
+        us010.browsersWindow.click();
+    }
 }
