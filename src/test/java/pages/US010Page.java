@@ -45,10 +45,4 @@ public class US010Page {
     public WebElement thirdButton;
     @FindBy(id = "promtButton")
     public WebElement forthButton;
-
-
-
-
-
-
 }

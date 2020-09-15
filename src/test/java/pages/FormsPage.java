@@ -45,8 +45,4 @@ public class FormsPage {
     public WebElement cityDropbox;
     @FindBy(id = "react-select-4-input")
     public WebElement cityInformationPlace;
-
-
-
-
 }
