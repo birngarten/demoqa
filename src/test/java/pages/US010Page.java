@@ -33,6 +33,20 @@ public class US010Page {
     public WebElement newWindowButton;
     @FindBy(id = "messageWindowButton")
     public WebElement newWindowMessageButton;
+    @FindBy(id = "sampleHeading")
+    public WebElement newPageText;
+    @FindBy (xpath = "//body")
+    public WebElement getNewWindowMessageText;
+    @FindBy(id = "alertButton")
+    public WebElement firstButton;
+    @FindBy(id = "timerAlertButton")
+    public WebElement secondButton;
+    @FindBy(id = "confirmButton")
+    public WebElement thirdButton;
+    @FindBy(id = "promtButton")
+    public WebElement forthButton;
+
+
 
 
 
