@@ -5,6 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class US010Page {
     public US010Page(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -14,6 +17,24 @@ public class US010Page {
     public WebElement alersFrameAndWindows;
     @FindBy(xpath = "//*[.='Browser Windows']")
     public WebElement browserWindows;
-    @FindBy(xpath = "//div[@class='element-list collapse show']")
-    public WebElement AlertsFrameWindows;
+    @FindBy(xpath = "(//span[@class='text'])[11]")
+    public  WebElement browsersWindow;
+    @FindBy(xpath = "(//span[@class='text'])[12]")
+    public  WebElement alerts;
+    @FindBy(xpath = "(//span[@class='text'])[13]")
+    public  WebElement frames;
+    @FindBy(xpath = "(//span[@class='text'])[14]")
+    public  WebElement nestedFrames;
+    @FindBy(xpath = "(//span[@class='text'])[15]")
+    public  WebElement modalDialoghs;
+    @FindBy(id = "tabButton")
+    public WebElement newTabButton;
+    @FindBy(id = "windowButton")
+    public WebElement newWindowButton;
+    @FindBy(id = "messageWindowButton")
+    public WebElement newWindowMessageButton;
+
+
+
+
 }
