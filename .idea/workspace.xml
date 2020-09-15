@@ -72,23 +72,6 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="TestNG.US009.tc037">
-    <configuration name="US009" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US009" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="US009.tc037" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -107,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US009.tc040" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_08_Test.TC_033" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US009" />
-      <option name="METHOD_NAME" value="tc040" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_08_Test" />
+      <option name="METHOD_NAME" value="TC_033" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US009.tc042" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_08_Test.TC_32" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US009" />
-      <option name="METHOD_NAME" value="tc042" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_08_Test" />
+      <option name="METHOD_NAME" value="TC_32" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US009.tc41" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_09_Test.TC_036" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +135,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US009" />
-      <option name="METHOD_NAME" value="tc41" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_09_Test" />
+      <option name="METHOD_NAME" value="TC_036" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_09_Test.TC_037" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_09_Test" />
+      <option name="METHOD_NAME" value="TC_037" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.US009.tc037" />
-        <item itemvalue="TestNG.US009" />
-        <item itemvalue="TestNG.US009.tc042" />
-        <item itemvalue="TestNG.US009.tc41" />
-        <item itemvalue="TestNG.US009.tc040" />
+        <item itemvalue="TestNG.US_09_Test.TC_037" />
+        <item itemvalue="TestNG.US_09_Test.TC_036" />
+        <item itemvalue="TestNG.US_08_Test.TC_033" />
+        <item itemvalue="TestNG.US_08_Test.TC_32" />
       </list>
     </recent_temporary>
   </component>
