@@ -57,5 +57,24 @@ public class US010 {
     public void tc046(){
         us010.alersFrameAndWindows.click();
         us010.browsersWindow.click();
+
+//        //   String ilkSayfa= Driver.getDriver().getWindowHandle();
+//        ReusableMethods.waitFor(2);
+//        us_06_page.ikinciHomeLink.click();
+//
+//        /////1. yontem list ile
+//        ReusableMethods.waitFor(2);
+//        allWindowHandels=new ArrayList<>(Driver.getDriver().getWindowHandles());
+//        System.out.println(allWindowHandels.size());
+//        System.out.println(allWindowHandels);
+//        Driver.getDriver().switchTo().window(allWindowHandels.get(1));
+//        System.out.println(Driver.getDriver().getCurrentUrl());
+//        String listYeniCurrentUrl=Driver.getDriver().getCurrentUrl();
+//        Assert.assertEquals(listYeniCurrentUrl,"https://demoqa.com/");
+        List<String>allWindowHandles = new ArrayList<>(Driver.getDriver().getWindowHandles());
+
+        us010.newTabButton.click();
+        allWindowHandles.add(Driver.getDriver().getWindowHandle());
+        if(allWindowHandles.equals())
     }
 }
