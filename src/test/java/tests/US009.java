@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.FormsPage;
@@ -11,10 +12,11 @@ import utilities.ReusableMethods;
 
 public class US009 {
     FormsPage formsPage = new FormsPage();
-    @BeforeTest
+    @BeforeMethod
     public void start(){
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
     }
+
     @Test
     public void tc036(){
         formsPage.FormsCard.click();
@@ -111,6 +113,7 @@ public class US009 {
         formsPage.maleButton.click();
         formsPage.userTelefonNUmber.sendKeys("1234567890");
         formsPage.sportsCheckBox.click();
+        ReusableMethods.waitFor(1);
         formsPage.uploadFile.sendKeys("C:\\Users\\SAM\\Desktop\\New Text Document.txt");
         formsPage.currentAdressTextBox.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
         formsPage.stateDropbox.click();
