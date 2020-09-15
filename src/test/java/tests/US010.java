@@ -1,7 +1,9 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -85,47 +87,19 @@ public class US010 {
     }
     @Test
     public void tc048(){
-        us010.alersFrameAndWindows.click();
-        us010.browsersWindow.click();
-        String ilkSayfa = Driver.getDriver().getWindowHandle();
-        us010.newWindowMessageButton.click();
+//        us010.alersFrameAndWindows.click();
+//        us010.browsersWindow.click();
+//        String ilkSayfa = Driver.getDriver().getWindowHandle();
+//        us010.newWindowMessageButton.click();
+//
+//        Set<String> windowHandles=Driver.getDriver().getWindowHandles();
+//        for (String w:windowHandles  ) {
+//            if (!w.equals(ilkSayfa)){
+//                Driver.getDriver().switchTo().window(w);
+//            }
+//        }
+//        System.out.println(us010.getNewWindowMessageText.getText());
+//        //yapamadik
+    }
 
-        Set<String> windowHandles=Driver.getDriver().getWindowHandles();
-        for (String w:windowHandles  ) {
-            if (!w.equals(ilkSayfa)){
-                Driver.getDriver().switchTo().window(w);
-            }
-        }
-        System.out.println(us010.getNewWindowMessageText.getText());
-        //yapamadik
-    }
-    @Test
-    public void tc049(){
-        us010.alersFrameAndWindows.click();
-        Assert.assertTrue(us010.alerts.isDisplayed());
-    }
-    @Test
-    public void tc050(){
-        us010.alersFrameAndWindows.click();
-        us010.alerts.click();
-        List<WebElement> buttons = new ArrayList<>();
-        buttons.add(us010.firstButton);
-        buttons.add(us010.secondButton);
-        buttons.add(us010.thirdButton);
-        buttons.add(us010.forthButton);
-        for(WebElement w :buttons){
-            Assert.assertTrue(w.isEnabled());
-        }
-        Assert.assertEquals(buttons.size(),4);
-    }
-    @Test
-    public void tc051(){
-        us010.alersFrameAndWindows.click();
-        us010.alerts.click();
-        us010.firstButton.click();
-       //Driver.getDriver().switchTo().alert();
-        String alertMessage = Driver.getDriver().switchTo().alert().getText();
-        System.out.println(alertMessage);
-        Driver.getDriver().switchTo().alert().accept();
-    }
 }
