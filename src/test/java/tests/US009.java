@@ -124,4 +124,15 @@ public class US009 {
         formsPage.cityDropbox.submit();
         //sehir seçicimde hata var
     }
-}
+    @Test
+    public void tc042(){
+        formsPage.FormsCard.click();
+        formsPage.practiceForm.click();
+        formsPage.firstName.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
+        formsPage.lastName.sendKeys(ConfigReader.getProperty("demoqa_test_data"));
+        formsPage.maleButton.click();
+        formsPage.userTelefonNUmber.sendKeys("1234567890");
+        formsPage.submitButton.click();
+        Assert.assertTrue(formsPage.succesTitle.isDisplayed());
+    }
+   }
