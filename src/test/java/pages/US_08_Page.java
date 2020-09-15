@@ -17,4 +17,10 @@ public class US_08_Page {
 
     @FindBy(id = "enableAfter")
     public  WebElement enableButton;
+
+    @FindBy(id = "colorChange")
+    public  WebElement colorChangeButton;
+
+    @FindBy(id = "visibleAfter")
+    public WebElement visibleButton;
 }
