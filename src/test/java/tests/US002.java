@@ -3,6 +3,7 @@ package tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -17,7 +18,7 @@ import java.util.List;
 public class US002  {
     DemoqaPage demoqaPage = new DemoqaPage();
 
-    @BeforeTest
+    @BeforeMethod
     public void stars(){
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
     }

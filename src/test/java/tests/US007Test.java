@@ -14,7 +14,7 @@ import utilities.ReusableMethods;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class US007 {
+public class US007Test {
     UploadDynamicPage uploadDynamicPage = new UploadDynamicPage();
 
     @BeforeTest

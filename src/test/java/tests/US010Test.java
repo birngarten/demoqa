@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class US010 {
+public class US010Test {
 
     US010Page us010 = new US010Page();
 

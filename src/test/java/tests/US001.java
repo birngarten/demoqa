@@ -2,6 +2,8 @@ package tests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.DemoqaPage;
@@ -14,9 +16,14 @@ import java.util.List;
 
 public class US001 {
     DemoqaPage demoqaPage = new DemoqaPage();
-    @BeforeTest
+    @BeforeMethod
     public void stars(){
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
+    }
+    @AfterTest
+    public void stop (){
+        ReusableMethods.waitFor(5);
+        Driver.getDriver().close();
     }
     @Test
     public void tc001(){
@@ -74,7 +81,6 @@ public class US001 {
             Assert.assertTrue(demoqaPage.afterSubmitTextBox.getText().contains(ConfigReader.getProperty("demoqa_test_data")));
             w.clear();
             ReusableMethods.waitFor(1);
-
         }
     }
 }

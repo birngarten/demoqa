@@ -14,7 +14,7 @@ import utilities.ReusableMethods;
 import java.util.ArrayList;
 import java.util.List;
 
-public class US008 {
+public class US008Test {
     UploadDynamicPage uploadDynamicPage = new UploadDynamicPage();
     Actions actions = new Actions(Driver.getDriver());
     @BeforeTest

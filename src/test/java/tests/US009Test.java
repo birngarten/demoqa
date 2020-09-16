@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class US009 {
+public class US009Test {
     FormsPage formsPage = new FormsPage();
     @BeforeMethod
     public void start(){

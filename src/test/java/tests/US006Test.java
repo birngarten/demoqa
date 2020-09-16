@@ -13,7 +13,7 @@ import utilities.ReusableMethods;
 import java.util.Iterator;
 import java.util.Set;
 
-public class US006 {
+public class US006Test {
     DemogaWebTablesButtonsLinksPage demogaWebTablesButtonsLinksPage = new DemogaWebTablesButtonsLinksPage();
     @BeforeTest
     public void stars(){
