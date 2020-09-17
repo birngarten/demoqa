@@ -68,8 +68,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="TestNG.US_10_Test.TC_47">
-    <configuration name="US_10_Test.TC_43" type="TestNG" temporary="true" nameIsGenerated="true">
   <component name="RunManager" selected="TestNG.US_09_Test.TC_036">
     <configuration name="US_08_Test.TC_033" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
@@ -80,8 +78,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_10_Test" />
-      <option name="METHOD_NAME" value="TC_43" />
       <option name="MAIN_CLASS_NAME" value="tests.US_08_Test" />
       <option name="METHOD_NAME" value="TC_033" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -91,7 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_10_Test.TC_44" type="TestNG" temporary="true" nameIsGenerated="true">
     <configuration name="US_08_Test.TC_31" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -101,8 +96,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_10_Test" />
-      <option name="METHOD_NAME" value="TC_44" />
       <option name="MAIN_CLASS_NAME" value="tests.US_08_Test" />
       <option name="METHOD_NAME" value="TC_31" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -112,7 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_10_Test.TC_45" type="TestNG" temporary="true" nameIsGenerated="true">
     <configuration name="US_08_Test.TC_32" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -122,8 +114,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_10_Test" />
-      <option name="METHOD_NAME" value="TC_45" />
       <option name="MAIN_CLASS_NAME" value="tests.US_08_Test" />
       <option name="METHOD_NAME" value="TC_32" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -133,7 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_10_Test.TC_46" type="TestNG" temporary="true" nameIsGenerated="true">
     <configuration name="US_09_Test.TC_036" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -143,8 +132,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_10_Test" />
-      <option name="METHOD_NAME" value="TC_46" />
       <option name="MAIN_CLASS_NAME" value="tests.US_09_Test" />
       <option name="METHOD_NAME" value="TC_036" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -154,7 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_10_Test.TC_47" type="TestNG" temporary="true" nameIsGenerated="true">
     <configuration name="US_09_Test.TC_037" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -164,11 +150,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_10_Test" />
-      <option name="METHOD_NAME" value="TC_47" />
       <option name="MAIN_CLASS_NAME" value="tests.US_09_Test" />
       <option name="METHOD_NAME" value="TC_037" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_10_Test.TC_44" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_10_Test.TC_45" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_10_Test.TC_46" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_10_Test.TC_47" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,7 +197,6 @@
         <item itemvalue="TestNG.US_10_Test.TC_46" />
         <item itemvalue="TestNG.US_10_Test.TC_45" />
         <item itemvalue="TestNG.US_10_Test.TC_44" />
-        <item itemvalue="TestNG.US_10_Test.TC_43" />
         <item itemvalue="TestNG.US_09_Test.TC_036" />
         <item itemvalue="TestNG.US_09_Test.TC_037" />
         <item itemvalue="TestNG.US_08_Test.TC_32" />
