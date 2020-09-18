@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_09_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_09_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_03720200915115406.png" beforeDir="false" />
-    </list>
+    <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/US_10_Test.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1gYup980kLRBxdjoTnIQvuFmqFb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
