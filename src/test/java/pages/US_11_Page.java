@@ -16,4 +16,12 @@ public class US_11_Page {
 
     @FindBy(xpath = "//button[@class='btn btn-primary']")
     public List<WebElement> clickMe;//var olan Webelemenleri list icine atiyor
+
+    @FindBy(xpath = "//span[@id='confirmResult']")
+    public WebElement textAlert3;
+
+    @FindBy(xpath = "//span[@id='promptResult']")
+    public WebElement textAlert4;
+
+
 }
