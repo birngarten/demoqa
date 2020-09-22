@@ -51,6 +51,7 @@ public class US_11_Test extends TestBase {
         Assert.assertEquals(alert01Text,"You clicked a button");
     }
 
+
     @Test
     public void TC_52() {
         //Ikinci Click me butonuna tiklandiginda
@@ -84,4 +85,32 @@ public class US_11_Test extends TestBase {
    //         System.out.println(e);
    //     }
     }
+
+    @Test
+    public void TC_53() {
+//Ucuncu Click me butonuna tiklandiginda cikan alertte Cancel'e tiklandiktan sonra "You selected Cancel" texti goruntulendigini verify ediniz
+
+        us11Page.alert.click();
+        us11Page.clickMe.get(2).click();
+        Driver.getDriver().switchTo().alert().dismiss();
+        Assert.assertTrue(us11Page.textAlert3.isDisplayed());
+    }
+
+    @Test
+    public void TC_54() {
+        //Dorduncu Click me butonuna tiklandiginda cikan alert'e text girilebildigini dogrulayiniz
+        //OK butonuna tiklandiktan sonra girilen text "On button click, prompt box will appear" texti altinda goruntulendigini dogrulayiniz
+
+        us11Page.alert.click();
+        us11Page.clickMe.get(3).click();
+        Driver.getDriver().switchTo().alert().sendKeys("entered text");
+        Driver.getDriver().switchTo().alert().accept();
+        ReusableMethods.waitFor(2);
+        String youEntredText = us11Page.textAlert4.getText();
+        Assert.assertTrue(youEntredText.contains("entered text"));
+
+
+
+    }
+
 }
