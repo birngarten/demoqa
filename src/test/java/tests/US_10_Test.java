@@ -17,6 +17,7 @@ import java.util.Set;
 public class US_10_Test extends TestBase {
 
     US_10_Page us10Page = new US_10_Page();
+    List<String> allWindowsHandles;
 
 
     @BeforeMethod
@@ -94,5 +95,23 @@ public class US_10_Test extends TestBase {
         Assert.assertTrue(us10Page.thisISaSamplePage2.isDisplayed());
     }
 
+    @Test
+    public void TC_48() {
+        //New Window Message butonu tiklandiginda acilan yeni mesaj penceresinin "Knowledge increases" textini icerdigini dogrulayiniz
+        ReusableMethods.waitFor(3);
+        actions.click(us10Page.browserWindows).perform();
+        System.out.println(Driver.getDriver().getWindowHandle());
+        ReusableMethods.waitFor(3);
+        us10Page.newMsgButton.click();
+        allWindowsHandles = new ArrayList<>(Driver.getDriver().getWindowHandles());
+        System.out.println(allWindowsHandles); // 2 tane windows handle aldigini gorduk.
+        Driver.getDriver().switchTo().window(allWindowsHandles.get(1));
+        System.out.println(Driver.getDriver().getWindowHandle()); //2. pencereye gecildigini gorduk.
+        String actualMessageWindowText = us10Page.messageWindowText.getText();
+        System.out.println(actualMessageWindowText);
+        String expectedText = "Knowledge increases";
 
+        Assert.assertTrue(actualMessageWindowText.contains(expectedText));
+
+    }
 }

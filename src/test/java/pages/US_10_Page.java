@@ -20,7 +20,7 @@ public class US_10_Page {
     public WebElement newTabButton;
     @FindBy(id = "windowButtonWrapper")
     public WebElement newWindowButton;
-    @FindBy(id = "msgWindowButtonWrapper")
+    @FindBy(id = "messageWindowButton")
     public WebElement newMsgButton;
 
     @FindBy(id = "sampleHeading")
@@ -28,6 +28,12 @@ public class US_10_Page {
 
     @FindBy(xpath = "//h1")
     public WebElement thisISaSamplePage2;
+
+    @FindBy(tagName = "body")
+    public WebElement messageWindowText;
+
+    @FindBy(xpath = "//span[.='Browser Windows']")
+    public WebElement browserWindowMenuLink;
 
 
 }
