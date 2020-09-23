@@ -60,4 +60,17 @@ public class US_09_Page {
     @FindBy(id = "submit")
     public WebElement submitButton;
 
+    @FindBy(xpath = "//select[@class='react-datepicker__month-select']")
+    public WebElement dropDownAy;
+
+    @FindBy(xpath = "//select[@class='react-datepicker__year-select']")
+    public WebElement dropDownYil;
+
+    @FindBy(xpath = "//div[.='23']")
+    public WebElement gun;
+
+    @FindBy(id = "example-modal-sizes-title-lg")
+    public WebElement basariTexti;
+
+
 }
