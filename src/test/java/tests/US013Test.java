@@ -35,9 +35,20 @@ public class US013Test {
         us013Page.alertsFrameWinwowsCard.click();
         us013Page.nestedFrameLink.click();
         List<WebElement> iframes = Driver.driver.findElements(By.xpath("//iframe"));
-        System.out.println(iframes);
-        Assert.assertEquals(iframes.size(),1);
-        //bu tc daha ayrıntılı düşünülmeli
+        Driver.getDriver().switchTo().frame(iframes.get(0));
+        for(int i=0;i<10;i++){
+            iframes.add(Driver.getDriver().findElement(By.xpath("//iframe")));
+            if(iframes.size()!=i+1){
+                break;
+            }
+        }
+
+//        for (WebElement w:iframes) {
+//            Driver.getDriver().switchTo().frame(w);
+//            iframes.add(Driver.getDriver().findElement(By.xpath("//iframe")));
+//        }
+
+        Assert.assertEquals(iframes.size(),2);
     }
     @Test
     public void tc060() {
@@ -57,7 +68,7 @@ public class US013Test {
         us013Page.alertsFrameWinwowsCard.click();
         us013Page.nestedFrameLink.click();
         Driver.driver.switchTo().frame("frame1");
-        String frameText = Driver.getDriver().findElement(By.xpath("//body")).getText();
+        String frameText = us013Page.parentFrameText.getText();
         Assert.assertEquals(frameText,"Parent frame");
     }
     @Test

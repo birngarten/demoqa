@@ -20,6 +20,8 @@ public class US013Page {
     public WebElement childFrame;
     @FindBy(id = "framesWrapper")
     public WebElement mainPageText;
+    @FindBy(xpath = "//body")
+    public WebElement parentFrameText;
 
 
 }
