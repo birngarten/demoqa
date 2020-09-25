@@ -2,12 +2,14 @@ package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.US_13_Page;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 import utilities.TestBase;
 
 import java.util.List;
@@ -54,21 +56,46 @@ public class US_13_Test extends TestBase {
     }
     @Test
     public void TC_059(){
-
+        //Parent Frame den Child Frame gecis yapmadan "Child Iframe" text i assert edilemez
+        String childFrameText ="deneme";
+        us_13_page.alertsCard.click();
+        us_13_page.nestedMenuLink.click();
+        try {
+            childFrameText = us_13_page.childFrameText.getText();
+        } catch (org.openqa.selenium.NoSuchElementException e){
+            childFrameText = "";
+        }
+        Assert.assertEquals(childFrameText,"");
     }
     @Test
     public void TC_060(){
-
+        //Nested Frames menu linkine tiklandiginda "Parent frame" Text ini assert ediniz.
+        us_13_page.alertsCard.click();
+        us_13_page.nestedMenuLink.click();
+        Driver.getDriver().switchTo().frame(0);
+        ReusableMethods.waitFor(2);
+        String parentFrameText = us_13_page.parentIframeText.getText();
+        Assert.assertEquals(parentFrameText,"Parent frame");
     }
     @Test
     public void TC_061(){
-
+        //Nested Frames menu linkine tiklandiginda "Child Iframe"  ifadesini assert ediniz.
+        us_13_page.alertsCard.click();
+        us_13_page.nestedMenuLink.click();
+//        Driver.getDriver().switchTo().frame(0);
+//        ReusableMethods.waitFor(1);
+//        Driver.getDriver().switchTo().frame(us_13_page.childFrame);
+        Driver.getDriver().switchTo().frame(0).switchTo().frame(us_13_page.childFrame);
+        Assert.assertEquals(us_13_page.childFrameText.getText(),"Child Iframe");
     }
     @Test
     public void TC_062(){
-
+        //Nested Frames menu linkine tiklandiginda Default Iframe deki "Sample Nested"
+        // ile baslayan Text in yazi rengi #212529 oldugunu assert ediniz.
+        us_13_page.alertsCard.click();
+        us_13_page.nestedMenuLink.click();
+        String mainPageTextColorInfo = Color.fromString(us_13_page.MainText.getCssValue("color")).asHex();
+        Assert.assertEquals(mainPageTextColorInfo,"#212529");
     }
 
 }
-
-
