@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pages.US016Page;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class US016Test {
     US016Page us016Page = new US016Page();
@@ -37,6 +38,11 @@ public class US016Test {
     @Test
     public void tc078(){
         //Üst Text box.a bir kaç harf yazın, bu harfleri içeren renklerin aşağıda listelendiğini asset edin
+        us016Page.widgetsCard.click();
+        us016Page.AutoCompleteLink.click();
+        us016Page.upperPartTextBox.click();
+        ReusableMethods.waitFor(1);
+        us016Page.upperPartTextBox.sendKeys("red");
 
     }
     @Test

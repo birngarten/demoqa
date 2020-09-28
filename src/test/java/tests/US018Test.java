@@ -17,7 +17,7 @@ public class US018Test {
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
     }
     @Test
-    public void tc092(){
+    public void tc091(){
         //slide.ın sola kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();
@@ -30,7 +30,7 @@ public class US018Test {
         Assert.assertTrue(Integer.parseInt(value)<50);
     }
     @Test
-    public void tc093(){
+    public void tc092(){
         //slide.ın sağa kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();
@@ -43,7 +43,7 @@ public class US018Test {
         Assert.assertTrue(Integer.parseInt(value)>50);
     }
     @Test
-    public void tc094(){
+    public void tc093(){
         //slide.ın en sola kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();
@@ -56,7 +56,7 @@ public class US018Test {
         Assert.assertTrue(Integer.parseInt(value)==0);
     }
     @Test
-    public void tc095(){
+    public void tc094(){
         //slide.ın en sağa kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();
@@ -69,7 +69,7 @@ public class US018Test {
         Assert.assertTrue(Integer.parseInt(value)==100);
     }
     @Test
-    public void tc096(){
+    public void tc095(){
         //slide.ı önce sola sonra sağa kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();
@@ -85,7 +85,7 @@ public class US018Test {
         Assert.assertTrue(Integer.parseInt(value)>50);
     }
     @Test
-    public void tc097(){
+    public void tc096(){
         //slide.ı önce sola sonra sağa kaydırılabildiğini assert edin
         us018Page.widgetsCard.click();
         us018Page.sliderLink.click();

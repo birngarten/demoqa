@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -10,6 +11,8 @@ import org.testng.annotations.Test;
 import pages.US022Page;
 import utilities.Driver;
 import utilities.ReusableMethods;
+
+import java.util.List;
 
 public class US022Test {
         US022Page us022Page = new US022Page();
@@ -57,12 +60,78 @@ public class US022Test {
     }
     @Test
     public void tc004(){
-        //-Üst Text box hover yapilinca box ici k  oyu yesil renk oldugunu verify edin.
+        //-Üst Text box hover yapilinca box ici koyu yesil renk oldugunu verify edin.
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.waitFor(1);
         us022Page.MenuLink.click();
         //eksik kaldi
+    }
+    @Test
+    public void tc005(){
+        //-Üst Text box 2 hover yapilinca 3 adet sub Text Box asagiya acildigini assert edin
+        us022Page.widgetsCard.click();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        us022Page.MenuLink.click();
+        actions.moveToElement(us022Page.mainBoxesLinks.get(1)).perform();
+        List<WebElement> subLİnks = Driver.getDriver().findElements(By.xpath("//a[.='Sub Item']"));
+        subLİnks.add(Driver.getDriver().findElement(By.xpath("//a[.='SUB SUB LIST »']")));
+        Assert.assertTrue(subLİnks.size()==3);
+        for (WebElement w:subLİnks
+             ) {
+            Assert.assertTrue(w.isEnabled());
+        }
+    }
+    @Test
+    public void tc006(){
+        //-Sirasiyla isimleri "Sub Item", "Sub Item" ve "SUB SUB LIST »" seklinde goruldugunu assert edin
+        us022Page.widgetsCard.click();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        us022Page.MenuLink.click();
+        actions.moveToElement(us022Page.mainBoxesLinks.get(1)).perform();
+        List<WebElement> subLİnks = Driver.getDriver().findElements(By.xpath("//a[.='Sub Item']"));
+        subLİnks.add(Driver.getDriver().findElement(By.xpath("//a[.='SUB SUB LIST »']")));
+        Assert.assertEquals(subLİnks.get(0).getText(),"Sub Item");
+        Assert.assertEquals(subLİnks.get(1).getText(),"Sub Item");
+        Assert.assertEquals(subLİnks.get(2).getText(),"SUB SUB LIST »");
+    }
+    @Test
+    public void tc007(){
+        us022Page.widgetsCard.click();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        us022Page.MenuLink.click();
+        actions.moveToElement(us022Page.mainBoxesLinks.get(1)).perform();
+        ReusableMethods.waitFor(1);
+        actions.moveToElement(Driver.getDriver().findElement(By.xpath("//a[.='SUB SUB LIST »']"))).perform();
+        List<WebElement>subSubİtems = Driver.getDriver().findElements(By.xpath("//a[.='Sub Sub Item 1']"));
+        subSubİtems.add(Driver.getDriver().findElement(By.xpath("//a[.='Sub Sub Item 2']")));
+        Assert.assertEquals(subSubİtems.size(),2);
+    }
+    @Test
+    public void tc008(){
+        //-Isimlerinin sirasiyla "Sub Sub Item 1" ve"Sub Sub Item 2" seklinde goruldugunu verify edin
+        us022Page.widgetsCard.click();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        us022Page.MenuLink.click();
+        actions.moveToElement(us022Page.mainBoxesLinks.get(1)).perform();
+        ReusableMethods.waitFor(1);
+        actions.moveToElement(Driver.getDriver().findElement(By.xpath("//a[.='SUB SUB LIST »']"))).perform();
+        List<WebElement>subSubİtems = Driver.getDriver().findElements(By.xpath("//a[.='Sub Sub Item 1']"));
+        subSubİtems.add(Driver.getDriver().findElement(By.xpath("//a[.='Sub Sub Item 2']")));
+        Assert.assertEquals(subSubİtems.get(0).getText(),"Sub Sub Item 1");
+        Assert.assertEquals(subSubİtems.get(1).getText(),"Sub Sub Item 2");
+    }
+    @Test
+    public void tc009(){
+        //yapamadık
     }
 }

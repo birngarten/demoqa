@@ -14,7 +14,7 @@ import utilities.ReusableMethods;
 import java.util.ArrayList;
 import java.util.List;
 
-public class US001 {
+public class US001Test {
     DemoqaPage demoqaPage = new DemoqaPage();
     @BeforeMethod
     public void stars(){

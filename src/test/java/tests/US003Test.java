@@ -8,7 +8,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class US003 {
+public class US003Test {
     DemoqaPage demoqaPage = new DemoqaPage();
 
     @BeforeTest

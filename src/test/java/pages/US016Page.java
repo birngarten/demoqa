@@ -19,7 +19,7 @@ public class US016Page {
     public WebElement upperPartText;
     @FindBy(xpath = "//div[@id='autoCompleteMultipleContainer']")
     public WebElement upperPartTextBox;
-    @FindBy(xpath = "//div[@id='autoCompleteSingle']")
+    @FindBy(xpath = "//div[@class='auto-complete__input']")
     public WebElement downerPartText;
     @FindBy(xpath = "//div[@id='autoCompleteSingleContainer']")
     public WebElement dowerPartTextBox;
