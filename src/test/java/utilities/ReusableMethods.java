@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -16,6 +17,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
+
 public class ReusableMethods {
     public static String getScreenshot(String name) throws IOException {
         String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -26,6 +28,7 @@ public class ReusableMethods {
         FileUtils.copyFile(source, finalDestination);
         return target;
     }
+
     //========Switching Window=====//
     public static void switchToWindow(String targetTitle) {
         String origin = Driver.getDriver().getWindowHandle();
@@ -37,11 +40,13 @@ public class ReusableMethods {
         }
         Driver.getDriver().switchTo().window(origin);
     }
+
     //========Hover Over=====//
     public static void hover(WebElement element) {
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(element).perform();
     }
+
     //==========Return a list of string given a list of Web Element====////
     public static List<String> getElementsText(List<WebElement> list) {
         List<String> elemTexts = new ArrayList<>();
@@ -52,6 +57,7 @@ public class ReusableMethods {
         }
         return elemTexts;
     }
+
     //========Returns the Text of the element given an element locator==//
     public static List<String> getElementsText(By locator) {
         List<WebElement> elems = Driver.getDriver().findElements(locator);
@@ -63,6 +69,7 @@ public class ReusableMethods {
         }
         return elemTexts;
     }
+
     //===============Explicit Wait==============//
     public static void waitFor(int sec) {
         try {
@@ -71,22 +78,27 @@ public class ReusableMethods {
             e.printStackTrace();
         }
     }
+
     public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeToWaitInSec);
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
+
     public static WebElement waitForVisibility(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
     public static WebElement waitForClickablility(WebElement element, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
+
     public static WebElement waitForClickablility(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
+
     public static void waitForPageToLoad(long timeOutInSeconds) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver driver) {
@@ -102,9 +114,9 @@ public class ReusableMethods {
                     "Timeout waiting for Page Load Request to complete after " + timeOutInSeconds + " seconds");
         }
     }
+
     //======Fluent Wait====//
-    public static WebElement fluentWait(final WebElement webElement, int timeinsec)
-    {
+    public static WebElement fluentWait(final WebElement webElement, int timeinsec) {
         FluentWait<WebDriver> wait = new FluentWait<WebDriver>(Driver.getDriver())
                 .withTimeout(timeinsec, TimeUnit.SECONDS).pollingEvery(timeinsec, TimeUnit.SECONDS)
                 .ignoring(NoSuchElementException.class);
@@ -115,4 +127,46 @@ public class ReusableMethods {
         });
         return element;
     }
+
+    //======== Slider Ayarlama =========//
+    public static void setSliderBall(WebElement element, int sliderStartPoint, int target) {
+        Actions actions = new Actions(Driver.getDriver());
+        String value = "";
+        actions.clickAndHold(element).perform();
+        for (int i = 0; i < sliderStartPoint; i++) {
+            if (sliderStartPoint > 0) {
+                actions.sendKeys(Keys.ARROW_LEFT).perform();
+            }
+            value = element.getAttribute("value");
+            if (value.equals("0")) {
+                for (int j = 0; j < target; j++) {
+                    actions.sendKeys(Keys.ARROW_RIGHT).perform();
+                }
+            }
+        }
+    }
+
+    // ======= RGB to HEX ==== //
+
+    public static String getHexColor(WebElement element, String cssValue) {
+        String color = element.getCssValue(cssValue);
+        String hex = "";
+        int r, g, b = 0;
+        if (color.contains("rgba")) {
+            String[] numbers = color.replace("rgba(", "").replace(")", "").split(",");
+            r = Integer.parseInt(numbers[0].trim());
+            g = Integer.parseInt(numbers[1].trim());
+            b = Integer.parseInt(numbers[2].trim());
+            hex = "#" + Integer.toHexString(r) + Integer.toHexString(g) + Integer.toHexString(b);
+        } else {
+            String[] numbers = color.replace("rgb(", "").replace(")", "").split(",");
+            r = Integer.parseInt(numbers[0].trim());
+            g = Integer.parseInt(numbers[1].trim());
+            b = Integer.parseInt(numbers[2].trim());
+            hex = "#" + Integer.toHexString(r) + Integer.toHexString(g) + Integer.toHexString(b);
+        }
+        return hex;
+    }
+
+
 }
