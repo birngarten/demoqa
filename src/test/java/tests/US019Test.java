@@ -41,9 +41,12 @@ public class US019Test {
         us019Page.startStopButton.click();
         List<String> progressReturn = new ArrayList<>();
         progressReturn.add(us019Page.progressBarPercent.getAttribute("aria-valuenow"));
-        for (int i = 0; i < 101; i++) {
+        for (int i = 0; i < 250; i++) {
             if (!progressReturn.contains(us019Page.progressBarPercent.getAttribute("aria-valuenow"))) {
                 progressReturn.add(us019Page.progressBarPercent.getAttribute("aria-valuenow"));
+            }
+            if(progressReturn.size()>=101){
+                break;
             }
         }
         System.out.println(progressReturn);

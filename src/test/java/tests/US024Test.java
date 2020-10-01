@@ -77,11 +77,29 @@ public class US024Test {
     @Test
     public void tc140(){
         //Grid menusu altindaki butun kutucuklari sirayla en sag ve alt satira suruklendigini assert ediniz
-
+        us024Page.sortableLink.click();
+        us024Page.gridLink.click();
+        String [] myTestData = {"One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+        for(int i=0;i<9;i++) {
+            ReusableMethods.waitFor(1);
+            actions.clickAndHold(us024Page.numbers.get(6)).perform();
+            actions.moveToElement(us024Page.numbers.get(14)).perform();
+            actions.release().perform();
+            Assert.assertEquals(us024Page.numbers.get(14).getText(), myTestData[i]);
+        }
     }
     @Test
     public void tc141(){
         //Grid menusu altindaki butun kutucuklarin sol en ust kisima suruklenebildigini assert ediniz
-
+        us024Page.sortableLink.click();
+        us024Page.gridLink.click();
+        String [] myTestData = {"Nine","Eight","Seven","Six","Five","Four","Three","Two","One"};
+        for(int i=0;i<9;i++) {
+            ReusableMethods.waitFor(1);
+            actions.clickAndHold(us024Page.numbers.get(14)).perform();
+            actions.moveToElement(us024Page.numbers.get(6)).perform();
+            actions.release().perform();
+            Assert.assertEquals(us024Page.numbers.get(6).getText(), myTestData[i]);
+        }
     }
 }

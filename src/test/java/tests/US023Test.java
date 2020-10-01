@@ -45,10 +45,8 @@ public class US023Test {
         for(int i=0; i<myArray.length;i++){
             us023Page.firstDropbox.click();
                 ReusableMethods.waitFor(1);
-
                 actions.sendKeys(Keys.ARROW_DOWN).perform();
-
-            actions.sendKeys(Keys.ENTER).perform();
+                actions.sendKeys(Keys.ENTER).perform();
 //            System.out.println(us023Page.result.getText());
 //            System.out.println(myArray[i]);
             Assert.assertEquals(us023Page.result.getText(),myArray[i]);

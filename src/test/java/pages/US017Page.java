@@ -15,8 +15,12 @@ public class US017Page {
     public WebElement datePickerLink;
     @FindBy(id = "datePickerMonthYearInput")
     public WebElement dateSelectionBox;
-    @FindBy(xpath = "//div[.='22']")
+    @FindBy(xpath = "//div[.='12']")
     public WebElement dayOfMonthSelection;
+    @FindBy(xpath = "//select[@class='react-datepicker__month-select']")
+    public WebElement dropdownMonthSelection;
+    @FindBy(xpath = "//select[@class='react-datepicker__year-select']")
+    public WebElement dropdownYearSelection;
     @FindBy(xpath = "//button[@aria-label='Previous Month']")
     public WebElement previousMontSelectionArrow;
     @FindBy(xpath = "//button[@aria-label='Next Month']")

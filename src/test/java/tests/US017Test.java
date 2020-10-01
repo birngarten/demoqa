@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,16 +17,21 @@ public class US017Test {
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
     }
     @Test
-    public void tc086(){
+    public void tc085(){
         //açılan bir pencereden bir tarih seçilebildiğini assert edin
         us017Page.widgetsCard.click();
         us017Page.datePickerLink.click();
         us017Page.dateSelectionBox.clear();
+        Select dropdown = new Select(us017Page.dropdownMonthSelection);
+        dropdown.selectByIndex(5);
+        ReusableMethods.waitFor(1);
+        Select dropdown2 = new Select(us017Page.dropdownYearSelection);
+        dropdown2.selectByIndex(10);
         us017Page.dayOfMonthSelection.click();
-        Assert.assertEquals(us017Page.dateSelectionBox.getAttribute("value"),"09/22/2020");
+        Assert.assertEquals(us017Page.dateSelectionBox.getAttribute("value"),"06/12/1910");
     }
     @Test
-    public void tc087(){
+    public void tc086(){
         //açılan pencereden bir ay geriye gidip bir tarih seçilebildiğini assert edin
         us017Page.widgetsCard.click();
         us017Page.datePickerLink.click();
