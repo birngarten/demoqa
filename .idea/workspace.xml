@@ -24,12 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US017Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US017Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US024Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US024Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US017Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US017Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US019Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US019Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US023Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US023Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US024Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US024Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US025Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US025Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US025Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US025Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,21 +72,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.US023Test.tc129">
-    <configuration name="US019Test.tc099" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US025Test.tc146">
+    <configuration name="US013Test and 3 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US019Test" />
-      <option name="METHOD_NAME" value="tc099" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PATTERN" />
       <properties />
       <listeners />
+      <patterns>
+        <pattern testClass="tests.US013Test" />
+        <pattern testClass="tests.US014Test" />
+        <pattern testClass="tests.US015Test" />
+        <pattern testClass="tests.US016Test" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,25 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US024Test.tc141" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US024Test" />
-      <option name="METHOD_NAME" value="tc141" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US025Test.tc142" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US025Test.tc144" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US025Test" />
-      <option name="METHOD_NAME" value="tc142" />
+      <option name="METHOD_NAME" value="tc144" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US025Test.tc143" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US025Test.tc145" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +134,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US025Test" />
-      <option name="METHOD_NAME" value="tc143" />
+      <option name="METHOD_NAME" value="tc145" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US025Test.tc146" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US025Test" />
+      <option name="METHOD_NAME" value="tc146" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US025Test.tc146" />
+        <item itemvalue="TestNG.US025Test.tc145" />
+        <item itemvalue="TestNG.US025Test.tc144" />
+        <item itemvalue="TestNG.US013Test and 3 more" />
         <item itemvalue="TestNG.US023Test.tc129" />
-        <item itemvalue="TestNG.US025Test.tc143" />
-        <item itemvalue="TestNG.US019Test.tc099" />
-        <item itemvalue="TestNG.US025Test.tc142" />
-        <item itemvalue="TestNG.US024Test.tc141" />
       </list>
     </recent_temporary>
   </component>
@@ -212,10 +205,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598390075074" />
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601326642328">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601674237170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601326642328" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601674237170" />
     <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598392923431">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -225,38 +218,38 @@
     </state>
     <state x="463" y="86" key="FileChooserDialogImpl/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598392682340" />
     <state x="724" y="265" key="FileChooserDialogImpl/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601187659958" />
-    <state width="1416" height="278" key="GridCell.Tab.0.bottom" timestamp="1601588683269">
+    <state width="1414" height="278" key="GridCell.Tab.0.bottom" timestamp="1601675189307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600119893994" />
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599664136916" />
     <state width="1007" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1601068095673" />
-    <state width="1416" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601588683269" />
-    <state width="1416" height="278" key="GridCell.Tab.0.center" timestamp="1601588683268">
+    <state width="1414" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601675189307" />
+    <state width="1414" height="278" key="GridCell.Tab.0.center" timestamp="1601675189307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600119893993" />
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599664136916" />
     <state width="1007" height="165" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1601068095673" />
-    <state width="1416" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601588683268" />
-    <state width="1416" height="278" key="GridCell.Tab.0.left" timestamp="1601588683268">
+    <state width="1414" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601675189307" />
+    <state width="1414" height="278" key="GridCell.Tab.0.left" timestamp="1601675189306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600119893993" />
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599664136916" />
     <state width="1007" height="165" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1601068095672" />
-    <state width="1416" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601588683268" />
-    <state width="1416" height="278" key="GridCell.Tab.0.right" timestamp="1601588683268">
+    <state width="1414" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601675189306" />
+    <state width="1414" height="278" key="GridCell.Tab.0.right" timestamp="1601675189307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600119893993" />
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599664136916" />
     <state width="1007" height="165" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@-1366.0.1366.768" timestamp="1601068095673" />
-    <state width="1416" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601588683268" />
+    <state width="1414" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.768@0.0.1920.1040" timestamp="1601675189307" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599689278654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
