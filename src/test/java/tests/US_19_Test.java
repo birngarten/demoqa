@@ -24,7 +24,7 @@ public class US_19_Test extends TestBase {
         wait.until(ExpectedConditions.elementToBeClickable(us_19_page.progressBarLink));
        // ReusableMethods.waitForClickablility(us_19_page.progressBarLink,2);
         us_19_page.progressBarLink.click();
-
+        ReusableMethods.waitFor(1);
     }
 
     @Test
@@ -75,5 +75,36 @@ public class US_19_Test extends TestBase {
         String barColorBefore = ReusableMethods.getHexColor(us_19_page.infoProgressBar,"background-color");
         System.out.println(barColorBefore);//#17a2b8
         Assert.assertEquals(barColorBefore,"#17a2b8");
+    }
+
+    @Test
+    public void TC_102() {
+        //veri islemesi bittiginde rengin yesile dönmesini assert edin.
+        us_19_page.startStopButton.click();
+        actions.sendKeys(Keys.PAGE_UP).perform();
+        wait.until(ExpectedConditions.visibilityOf(us_19_page.resetButton));
+        String barColorAfter = ReusableMethods.getHexColor(us_19_page.successProgressBar,"background-color");
+        System.out.println(barColorAfter);
+        Assert.assertEquals(barColorAfter,"#28a745");
+    }
+
+    @Test
+    public void TC_103() {
+        //veri isleme %100 oldugunda "Restart" ikonu olustugunu assert edin
+        us_19_page.startStopButton.click();
+        actions.sendKeys(Keys.PAGE_UP).perform();
+        wait.until(ExpectedConditions.visibilityOf(us_19_page.resetButton));
+        System.out.println(us_19_page.resetButton.getText());
+        Assert.assertFalse(us_19_page.resetButton.getText().equals("Restart"));
+    }
+
+    @Test
+    public void TC_104() {
+        //"Restart" tekrar click yapildiginda veri islenmesini assert edin.
+        us_19_page.startStopButton.click();
+        actions.sendKeys(Keys.PAGE_UP).perform();
+        wait.until(ExpectedConditions.visibilityOf(us_19_page.resetButton));
+        us_19_page.resetButton.click();
+        Assert.assertTrue(us_19_page.startStopButton.isDisplayed());
     }
 }

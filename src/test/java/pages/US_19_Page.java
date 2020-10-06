@@ -31,6 +31,11 @@ public class US_19_Page {
     @FindBy(xpath = "//div[@class='progress-bar bg-info']")
     public WebElement infoProgressBar;
 
+    @FindBy(id ="resetButton")
+    public WebElement resetButton;
+
+    @FindBy(xpath = "//div[@class='progress-bar bg-success']")
+    public WebElement successProgressBar;
 
 
 }
