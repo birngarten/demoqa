@@ -21,7 +21,7 @@ public class US022Test {
         Driver.getDriver().get("https://demoqa.com/");
     }
     @Test
-    public void tc001(){
+    public void tc119(){
         //- Sayfanın başlığı "Menu" oldugunu verify edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -31,7 +31,7 @@ public class US022Test {
         Assert.assertEquals(us022Page.pageHeader.getText(),"Menu");
     }
     @Test
-    public void tc002(){
+    public void tc120(){
         //-Text boxlarin yesil renk dolgu ve beyaz yazi tipinde oldugunu assert edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -47,7 +47,7 @@ public class US022Test {
         Assert.assertEquals(backGroungColor,"#24af15");
     }
     @Test
-    public void tc003(){
+    public void tc121(){
         //-Text boxların başlıklarinin "Main Item 1" , "Main Item 2" , "Main Item 3" oldugunu assert edin.
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -59,7 +59,7 @@ public class US022Test {
         Assert.assertEquals(us022Page.mainBoxesLinks.get(2).getText(),"Main Item 3");
     }
     @Test
-    public void tc004(){
+    public void tc122(){
         //-Üst Text box hover yapilinca box ici koyu yesil renk oldugunu verify edin.
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -69,7 +69,7 @@ public class US022Test {
         //eksik kaldi
     }
     @Test
-    public void tc005(){
+    public void tc123(){
         //-Üst Text box 2 hover yapilinca 3 adet sub Text Box asagiya acildigini assert edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -86,7 +86,7 @@ public class US022Test {
         }
     }
     @Test
-    public void tc006(){
+    public void tc124(){
         //-Sirasiyla isimleri "Sub Item", "Sub Item" ve "SUB SUB LIST »" seklinde goruldugunu assert edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -101,7 +101,7 @@ public class US022Test {
         Assert.assertEquals(subLİnks.get(2).getText(),"SUB SUB LIST »");
     }
     @Test
-    public void tc007(){
+    public void tc125(){
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -115,7 +115,7 @@ public class US022Test {
         Assert.assertEquals(subSubİtems.size(),2);
     }
     @Test
-    public void tc008(){
+    public void tc126(){
         //-Isimlerinin sirasiyla "Sub Sub Item 1" ve"Sub Sub Item 2" seklinde goruldugunu verify edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
@@ -131,7 +131,7 @@ public class US022Test {
         Assert.assertEquals(subSubİtems.get(1).getText(),"Sub Sub Item 2");
     }
     @Test
-    public void tc009(){
+    public void tc127(){
         //yapamadık
     }
 }

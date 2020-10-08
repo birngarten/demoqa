@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -20,12 +21,14 @@ public class TestBase {
     public ExtentHtmlReporter extentHtmlReporter;
     protected DemoqaPage demoqaPage;
     protected Actions actions;
+    protected WebDriverWait wait;
 
     @BeforeMethod
     public void setup() {
         Driver.getDriver().get(ConfigReader.getProperty("demoqa"));
         demoqaPage = new DemoqaPage();
         actions = new Actions(Driver.getDriver());
+        wait = new WebDriverWait(Driver.getDriver(),20);
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
