@@ -21,5 +21,11 @@ public class US022Page {
     public List<WebElement> mainBoxesLinks;
     @FindBy(xpath = "(//div/ul/li)[34]")
     public WebElement greenBackGround;
+    @FindBy(xpath = "//ul[@id='nav']//li")
+    public WebElement dunkelGrun;
+    @FindBy(xpath = "(//ul[@id='nav']//li)[6]")
+    public WebElement dunkelGrun2;
+    @FindBy(xpath = "(//ul[@id='nav']//li)[7]")
+    public WebElement dunkelGrun3;
 
 }

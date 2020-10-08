@@ -14,6 +14,10 @@ import utilities.ReusableMethods;
 import utilities.TestBase;
 
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class US028Test extends TestBase{
 
@@ -111,12 +115,50 @@ public class US028Test extends TestBase{
         // iki farkli  hareket alaninin olup olmadigini assert ediniz ve "I`m contained within the box" ve
         // "I`m contained within my parent " ifadelerinin gorunur olup olamdigni test ediniz ve
         // harekeli ifadelerinin maus ile birlikte hareket edip etmediniz test ediniz.
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        wait.until(ExpectedConditions.visibilityOf(us028Page.draggbleLink));
+        us028Page.draggbleLink.click();
+        ReusableMethods.waitFor(1);
+        us028Page.mainTabs.get(2).click();
+        Assert.assertTrue(us028Page.upperBox.isDisplayed());
+        Assert.assertTrue(us028Page.downerBox.isDisplayed());
+        //for upperBox
+        actions.clickAndHold(us028Page.upperBox).perform();
+        actions.moveByOffset(673,106).perform();
+        actions.release().perform();
+        Assert.assertEquals(us028Page.upperBox.getCssValue("left"),"673px");
+        Assert.assertEquals(us028Page.upperBox.getCssValue("top"),"106px");
+        //for downerBox
+        ReusableMethods.waitFor(1);
+        actions.clickAndHold(us028Page.downerBox).perform();
+        actions.moveByOffset(13,86).perform();
+        actions.release().perform();
+        Assert.assertEquals(us028Page.downerBox.getCssValue("left"),"13px");
+        Assert.assertEquals(us028Page.downerBox.getCssValue("top"),"86px");
     }
     @Test
     public void tc168(){
         //"I will always stick to the center" ,"My cursor is at top left" ve "My cursor is at bottom"
         // ifadeli hareketli butonlari  mausla  tiklaninca  hareket edip etmedinig  test ediniz ve
         // gorunurlugunun ayni olmadigin da assert ediniz
+        Set<String> myResults = new HashSet<>();
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        wait.until(ExpectedConditions.visibilityOf(us028Page.draggbleLink));
+        us028Page.draggbleLink.click();
+        ReusableMethods.waitFor(1);
+        us028Page.mainTabs.get(3).click();
+        List<WebElement> myList = new ArrayList<>();
+        myList.add(us028Page.box1);
+        myList.add(us028Page.box2);
+        myList.add(us028Page.box3);
+        ReusableMethods.waitFor(1);
+        for (WebElement w: myList) {
+            actions.clickAndHold(w).perform();
+            actions.moveByOffset(50,50).perform();
+            actions.release().perform();
+            myResults.add(w.getCssValue("left"));
+            myResults.add(w.getCssValue("top"));
+        }
+        Assert.assertEquals(myResults.size(),6);
     }
-
 }

@@ -66,7 +66,10 @@ public class US022Test {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.waitFor(1);
         us022Page.MenuLink.click();
-        //eksik kaldi
+        actions.moveToElement(us022Page.mainBoxesLinks.get(0)).perform();
+        String backGroungColor = Color.fromString(us022Page.greenBackGround.getCssValue("background-color")).asHex();
+        Assert.assertEquals(backGroungColor,"#003f20");
+
     }
     @Test
     public void tc123(){
@@ -102,6 +105,8 @@ public class US022Test {
     }
     @Test
     public void tc125(){
+        //-"SUB SUB LIST »" Sub Text Box hover yapildiginda koyu yesil renk oldugunu
+        // ve sag tarafa 2 adet Sub Sub Text Box acildigini assert edin
         us022Page.widgetsCard.click();
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -132,6 +137,21 @@ public class US022Test {
     }
     @Test
     public void tc127(){
-        //yapamadık
+        //-Sub Sub Text Box'larin hover edildiginde koyu yesil renk aldigini assert edin
+        us022Page.widgetsCard.click();
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        us022Page.MenuLink.click();
+        actions.moveToElement(us022Page.mainBoxesLinks.get(1)).perform();
+        ReusableMethods.waitFor(1);
+        actions.moveToElement(Driver.getDriver().findElement(By.xpath("//a[.='SUB SUB LIST »']"))).perform();
+
+        actions.moveToElement(Driver.getDriver().findElement(By.xpath("//a[.='Sub Sub Item 1']"))).perform();
+        String backGroungColor = Color.fromString(us022Page.dunkelGrun2.getCssValue("background-color")).asHex();
+        Assert.assertEquals(backGroungColor,"#003f20");
+        actions.moveToElement(Driver.getDriver().findElement(By.xpath("//a[.='Sub Sub Item 2']"))).perform();
+        String backGroungColor2 = Color.fromString(us022Page.dunkelGrun3.getCssValue("background-color")).asHex();
+        Assert.assertEquals(backGroungColor2,"#003f20");
     }
 }
