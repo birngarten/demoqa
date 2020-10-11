@@ -48,8 +48,8 @@ public class US023Test {
                 ReusableMethods.waitFor(1);
                 actions.sendKeys(Keys.ARROW_DOWN).perform();
                 actions.sendKeys(Keys.ENTER).perform();
-//            System.out.println(us023Page.result.getText());
-//            System.out.println(myArray[i]);
+            System.out.println(us023Page.result.getText());
+            System.out.println("array "+myArray[i]);
             Assert.assertEquals(us023Page.result.getText(),myArray[i]);
         }
     }
