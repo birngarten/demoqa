@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class US_25_Test extends TestBase {
 
     US_25_Page us25Page=new US_25_Page();
     SoftAssert sof=new SoftAssert();
+    String [] myTestData = {"Cras justo odio","Dapibus ac facilisis in", "Morbi leo risus", "Porta ac consectetur ac"};
 
     @BeforeMethod
     public void setUs25Page(){
@@ -45,6 +47,7 @@ public class US_25_Test extends TestBase {
 
         String  listGrid[]={"List","Grid"};
         int count=0;
+
         us25Page.listAndGridButtons.get(0).click();
         String colorGrid=ReusableMethods.getHexColor(us25Page.listAndGridButtons.get(1),"color");
         System.out.println(colorGrid);
@@ -58,8 +61,6 @@ public class US_25_Test extends TestBase {
             count++;
         }
 
-
-
         sof.assertAll();
 
 
@@ -67,17 +68,24 @@ public class US_25_Test extends TestBase {
     }
     @Test
     public void TC_144(){
-       //b. "List" ve "Grid" boxlarinin altinda,
+        //b. "List" ve "Grid" boxlarinin altinda,
         // ayni hizada, ayri kutucuklar halinde,
         // ayni buyuklukteki Box'lar icinde ve yukardan asagiya sirasiyla;
         // "Cras justo", "Dapibus ac facilisis in", "Morbi leo risus", "Porta ac consectetur ac" bulundugunu  verify edin
+
         us25Page.listAndGridButtons.get(0).click();
+        int i=0;
+
         for (WebElement kutu: us25Page.listTabOfTextes){
-            kutu.click();
+            ReusableMethods.waitFor(2);
             System.out.println(kutu.getText());
+            sof.assertEquals(kutu.getText(),myTestData[i]);
+            i++;
+
         }
 
 
+        sof.assertAll();
 
     }
     @Test
@@ -87,6 +95,19 @@ public class US_25_Test extends TestBase {
         // yazilarin ise beyaz oldugunu dogrula.
         // Tekrar tiklandiginda Fon renginin gittigini dogrula.
 
+        ReusableMethods.waitFor(2);
+        for(WebElement box:us25Page.listTabOfTextes){
+            ReusableMethods.waitFor(1);
+            box.click();
+            ReusableMethods.waitFor(2);
+            String mainPageTextColor= Color.fromString(box.getCssValue("background-color")).asHex();
+            ReusableMethods.waitFor(3);
+            sof.assertEquals(mainPageTextColor,"#ffffff");
+
+        }
+
+
+        sof.assertAll();
 
     }
     @Test
@@ -96,6 +117,47 @@ public class US_25_Test extends TestBase {
         //toplam 9 kücük karecigin acildigini dogrula ve
         // soldan saga kutucuklarin icerisinde,
         // ortali olmak üzere "One", "Two", "Three", "Four", "Five", "Six", "Seven", Eight", "Nine" yazilarinin yer aldigini dogrula.
+
+        String sayilar[]={"One", "Two", "Three", "Four", "Five", "Six", "Seven","Eight","Nine"};
+
+        int i=0;
+        actions.click(us25Page.listAndGridButtons.get(1)).perform();
+        String textRenk=us25Page.listAndGridButtons.get(1).getCssValue("color");
+
+        System.out.println(textRenk);
+        String renkHex=Color.fromString(textRenk).asHex();
+        sof.assertEquals(renkHex,"#495057");// text in yazi rengi siyah
+
+        System.out.println(us25Page.numbers.getText());
+
+        for (String n:sayilar){
+
+            sof.assertTrue(us25Page.numbers.getText().contains(n));
+
+            i++;
+
+
+        }
+
+        //Samet beyin  HashSet getLocation() ile farkli degerleri kurmak icin ...
+        //HashSet<Integer> dataX = new HashSet<>(); == yatay  elementlein sayisi
+
+        //HashSet<Integer> dataY = new HashSet<>();== dikey elementlerin sayisi
+        //for (WebElement w : us025Page.numbersListContainer) {
+        //dataX.add(w.getLocation().getX());
+        //dataY.add(w.getLocation().getY());
+        //}
+        //System.out.println(dataX);
+        //Assert.assertEquals(dataX.size(), 3);
+        //Assert.assertEquals(dataY.size(), 3);
+
+
+
+        sof.assertEquals(i,9);
+
+        sof.assertAll();
+
+
 
 
     }

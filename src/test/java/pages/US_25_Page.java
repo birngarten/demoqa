@@ -27,6 +27,15 @@ public class US_25_Page {
     @FindBy(xpath = "//li[@class='mt-2 list-group-item active list-group-item-action']")
     public List<WebElement> listTabOfTextes;
 
+    @FindBy(id ="verticalListContainer")
+    public WebElement listTextleri;
+
+    @FindBy(xpath = "//div[@id='gridContainer']")
+    public WebElement numbers;
+
+    //@FindBy(xpath = "//li[@class='list-group-item list-group-item-action']")
+    // public List<WebElement> numbersListContainer;
+
 
 
 }
