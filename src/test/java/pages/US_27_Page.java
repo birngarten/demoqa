@@ -59,10 +59,10 @@ public class US_27_Page {
     public WebElement  innnerNotGreedyText;
 
     @FindBy(id = "revertable")
-    public WebElement revetableBox;
+    public WebElement revertableBox;
 
     @FindBy(xpath = "(//div[@id='droppable'])[3]")
-    public WebElement revertDroppedBox;
+    public WebElement revertDdroppableBox;
 
     @FindBy(xpath = "//div[.='Not Revert']")
     public WebElement notRevertableBox;
