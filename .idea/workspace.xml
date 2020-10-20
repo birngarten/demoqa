@@ -24,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US_27_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US_27_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_27_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_27_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teamDort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,9 +72,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\tests" />
+      <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_16_Test.TC_079">
-    <configuration name="US_16_Test.TC_016" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_27_Test.TC_159">
+    <configuration name="US_27_Test.TC_156" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +87,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_16_Test" />
-      <option name="METHOD_NAME" value="TC_016" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_27_Test" />
+      <option name="METHOD_NAME" value="TC_156" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_16_Test.TC_079" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_27_Test.TC_157" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_16_Test" />
-      <option name="METHOD_NAME" value="TC_079" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_27_Test" />
+      <option name="METHOD_NAME" value="TC_157" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_17_Test.TC_086" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_27_Test.TC_158" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_17_Test" />
-      <option name="METHOD_NAME" value="TC_086" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_27_Test" />
+      <option name="METHOD_NAME" value="TC_158" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_17_Test.TC_088" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_27_Test.TC_159" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_17_Test" />
-      <option name="METHOD_NAME" value="TC_088" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_27_Test" />
+      <option name="METHOD_NAME" value="TC_159" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_17_Test.TC_089" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_27_Test.TC_160" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_17_Test" />
-      <option name="METHOD_NAME" value="TC_089" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_27_Test" />
+      <option name="METHOD_NAME" value="TC_160" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,15 +170,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_16_Test.TC_079" />
-        <item itemvalue="TestNG.US_16_Test.TC_016" />
-        <item itemvalue="TestNG.US_17_Test.TC_089" />
-        <item itemvalue="TestNG.US_17_Test.TC_088" />
-        <item itemvalue="TestNG.US_17_Test.TC_086" />
+        <item itemvalue="TestNG.US_27_Test.TC_159" />
+        <item itemvalue="TestNG.US_27_Test.TC_160" />
+        <item itemvalue="TestNG.US_27_Test.TC_158" />
+        <item itemvalue="TestNG.US_27_Test.TC_157" />
+        <item itemvalue="TestNG.US_27_Test.TC_156" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,20 +209,25 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2632" y="349" key="#Notifications/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1598624693395" />
+    <state x="-1368" y="166" key="#Plugins" timestamp="1602140615330">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1368" y="166" key="#Plugins/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1602140615330" />
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598390075074">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598390075074" />
-    <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598392923431">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="-1410" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602276017482">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598392923431" />
+    <state x="-1410" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1602276017482" />
     <state x="463" y="86" key="FileChooserDialogImpl" timestamp="1598392682340">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="86" key="FileChooserDialogImpl/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598392682340" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1601328757406">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1603230118347">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600896250763" />
     <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-106.1920.1050@-1920.-106.1920.1050" timestamp="1599688972295" />
@@ -224,8 +235,11 @@
     <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601328757406" />
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600809382059" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1601328757406">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602102126619" />
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/1920.118.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601933816388" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1603230118347">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600896250763" />
     <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-106.1920.1050@-1920.-106.1920.1050" timestamp="1599688972295" />
@@ -233,8 +247,11 @@
     <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601328757406" />
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600809382059" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1601328757406">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602102126618" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center/1920.118.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601933816388" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1603230118346">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600896250763" />
     <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-106.1920.1050@-1920.-106.1920.1050" timestamp="1599688972294" />
@@ -242,8 +259,11 @@
     <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601328757406" />
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600809382059" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1601328757406">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118346" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602102126617" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left/1920.118.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601933816388" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1603230118347">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1323" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600896250763" />
     <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-106.1920.1050@-1920.-106.1920.1050" timestamp="1599688972295" />
@@ -251,6 +271,9 @@
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601328757406" />
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1599775129618" />
     <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600809382059" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602102126618" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right/1920.118.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601933816388" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599689278654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -277,10 +300,12 @@
     <state x="177" y="0" key="SettingsEditor/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598390601638" />
     <state x="177" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601320608060" />
     <state x="199" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600291524140" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598375360723">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="554" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602100072082">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598375360723" />
+    <state x="554" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602100072082" />
+    <state x="692" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.118.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601590374644" />
     <state x="454" y="197" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601287399876">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -293,10 +318,12 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598369570829" />
-    <state x="346" y="58" width="672" height="669" key="search.everywhere.popup" timestamp="1600895721740">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1434" y="83" width="945" height="966" key="search.everywhere.popup" timestamp="1602140589423">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="346" y="58" width="672" height="669" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600895721740" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1598390594531" />
+    <state x="-1434" y="83" width="945" height="966" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1602140589423" />
+    <state x="389" y="66" width="756" height="767" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1602100069513" />
   </component>
 </project>
