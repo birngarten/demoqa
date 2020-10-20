@@ -200,16 +200,19 @@ public class US_27_Test extends TestBase {
       //  Revert Draggable Tab'i altinda "Will Revert" kutucugunun "Drop here" kutusuna birakildiginda
         //  tekrar eski yerine geldigini dogrulayiniz
 
-        us27.droppedAllSubLinks.get(3).click();
+          us27Page.droppableItems.get(3).click();
 
         ReusableMethods.waitFor(2);
+        Point a = us27Page.revertableBox.getLocation();
+        System.out.println(a);
 
-        actions.dragAndDropBy(us27.revetableBox, 340,110).build().perform();
-        ReusableMethods.waitFor(4);
+        actions.dragAndDrop(us27Page.revertableBox,us27Page.revertDdroppableBox).perform();
+        ReusableMethods.waitFor(5);
 
-        soft.assertEquals(us27.revetableBox.getAttribute("style"),"position: relative; left: 0px; top: 0px;");
+        Point b = us27Page.revertableBox.getLocation();
+        System.out.println(b);
 
-        soft.assertAll();
+        Assert.assertEquals(a,b);
 
     }
     @Test
