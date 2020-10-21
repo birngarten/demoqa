@@ -59,7 +59,9 @@ public class US_13_Test extends TestBase {
         //Parent Frame den Child Frame gecis yapmadan "Child Iframe" text i assert edilemez
         String childFrameText ="deneme";
         us_13_page.alertsCard.click();
+        ReusableMethods.waitFor(2);
         us_13_page.nestedMenuLink.click();
+        Driver.getDriver().switchTo().frame(0);
         try {
             childFrameText = us_13_page.childFrameText.getText();
         } catch (org.openqa.selenium.NoSuchElementException e){
