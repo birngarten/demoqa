@@ -1,8 +1,10 @@
 package tests;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -225,7 +227,7 @@ public class US_27_Test extends TestBase {
         us27.droppedAllSubLinks.get(3).click();
         ReusableMethods.waitFor(2);
 
-        actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.revertDroppedBox).release().perform();
+        actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.revertableBox).release().perform();
 
         ReusableMethods.waitFor(1);
 
