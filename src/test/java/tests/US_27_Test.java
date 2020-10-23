@@ -1,10 +1,8 @@
 package tests;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -202,19 +200,19 @@ public class US_27_Test extends TestBase {
       //  Revert Draggable Tab'i altinda "Will Revert" kutucugunun "Drop here" kutusuna birakildiginda
         //  tekrar eski yerine geldigini dogrulayiniz
 
-//          us27.droppableItems.get(3).click();
-//
-//        ReusableMethods.waitFor(2);
-//        Point a = us27Page.revertableBox.getLocation();
-//        System.out.println(a);
-//
-//        actions.dragAndDrop(us27Page.revertableBox,us27Page.revertDdroppableBox).perform();
-//        ReusableMethods.waitFor(5);
-//
-//        Point b = us27Page.revertableBox.getLocation();
-//        System.out.println(b);
-//
-//        Assert.assertEquals(a,b);
+          us27.droppedAllSubLinks.get(3).click();
+
+        ReusableMethods.waitFor(2);
+        Point a = us27.revertableBox.getLocation();
+        System.out.println(a);
+
+        actions.dragAndDrop(us27.revertableBox,us27.revertDdroppableBox).perform();
+        ReusableMethods.waitFor(5);
+
+        Point b = us27.revertableBox.getLocation();
+        System.out.println(b);
+
+        Assert.assertEquals(a,b);
 
     }
     @Test
@@ -227,7 +225,7 @@ public class US_27_Test extends TestBase {
         us27.droppedAllSubLinks.get(3).click();
         ReusableMethods.waitFor(2);
 
-        actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.droppedBigBox).release().perform();
+        actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.revertDroppedBox).release().perform();
 
         ReusableMethods.waitFor(1);
 
