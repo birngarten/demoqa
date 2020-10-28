@@ -30,6 +30,9 @@ public class US_33_Page {
     @FindBy(xpath = "(//a)[2]")
     public WebElement validLink;
 
+    @FindBy(xpath = "(//a)[3]")
+    public WebElement brokenLink;
+
 
 
 

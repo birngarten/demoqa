@@ -75,7 +75,13 @@ public class US_33_Test extends TestBase {
     @Test
     public void TC200() {
 // Broken linke tiklandiginda Ip adresi bulunamadı hatasinin alindigini assert ediniz
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        us33Page.brokenLink.click();
 
+        String url = Driver.getDriver().getCurrentUrl();
+        System.out.println(url);
+
+        Assert.assertEquals(url,"http://the-internet.herokuapp.com/status_codes/500");
 
     }
     }
