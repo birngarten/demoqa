@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US_31_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/US_31_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_31_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_31_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_31_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/US_31_Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="Merge branch 'master' into zehra&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/tests/US_27_Test.java&#10;#&#9;target/test-classes/tests/US_27_Test.class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,6 +199,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' into zehra&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/tests/US_27_Test.java&#10;#&#9;target/test-classes/tests/US_27_Test.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' into zehra&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/tests/US_27_Test.java&#10;#&#9;target/test-classes/tests/US_27_Test.class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2632" y="349" key="#Notifications" timestamp="1598624693395">
