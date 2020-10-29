@@ -62,7 +62,7 @@ public class US_27_Page {
     public WebElement revertableBox;
 
     @FindBy(xpath = "(//div[@id='droppable'])[3]")
-    public WebElement revertDdroppableBox;
+    public WebElement revertDroppableBox;
 
     @FindBy(xpath = "//div[.='Not Revert']")
     public WebElement notRevertableBox;

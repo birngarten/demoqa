@@ -14,7 +14,7 @@ import utilities.TestBase;
 
 import java.util.Set;
 
-    public class US_16_Test extends TestBase {
+public class US_16_Test extends TestBase {
     US_16_Page us16Page = new US_16_Page();
     SoftAssert soft = new SoftAssert();
 
