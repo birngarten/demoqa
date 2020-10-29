@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite Demoqa" verbose="1">
+    <test name="Paralel Test.a" parallel="classes" thread-count="2">
+        <classes>
+            <class name="tests.US_20_Test"></class>
+            <class name="tests.US_21_Test"></class>
+            <class name="tests.US_22_Test"></class>
+            <class name="tests.US_23_Test"></class>
+        </classes>
+    </test>
+</suite>
