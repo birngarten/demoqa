@@ -23,29 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/demoqa.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_28_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/US_28_Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_13_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_22_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_23_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_23_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_24_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_24_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_25_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_25_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_27_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_27_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_28_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_28_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_29_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_29_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_30_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_30_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_33_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/US_33_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +74,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tests" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utilities" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\tests" />
@@ -246,28 +224,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604316830942" />
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1611695166808">
+    <state width="1323" height="295" key="GridCell.Tab.0.bottom" timestamp="1611695836554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611695166808" />
+    <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611695836554" />
     <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1611695166808">
+    <state width="1323" height="295" key="GridCell.Tab.0.center" timestamp="1611695836554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611695166808" />
+    <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611695836554" />
     <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1611695166808">
+    <state width="1323" height="295" key="GridCell.Tab.0.left" timestamp="1611695836554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611695166808" />
+    <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611695836554" />
     <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688401" />
     <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118346" />
-    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1611695166808">
+    <state width="1323" height="295" key="GridCell.Tab.0.right" timestamp="1611695836554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611695166808" />
+    <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611695836554" />
     <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
     <state x="339" y="163" key="run.anything.popup" timestamp="1603480054524">
