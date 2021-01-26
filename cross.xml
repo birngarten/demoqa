@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fhc Trip" verbose="2">
+    <test name="Chrome ile test">
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="src/test/java/testsDemoqa">
+
+            </package>
+        </packages>
+    </test>
+</suite>

@@ -5,14 +5,11 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import pages.DemoqaPage;
+import pagesDemoqa.DemoqaPage;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -48,20 +45,24 @@ public class TestBase {
         extentHtmlReporter.config().setReportName("FHC Trip Automation Reports");
     }
     @AfterTest
-    public void tearDownTest(){
-        extentReports.flush();
+    public void afterMethod(){
+        Driver.closeDriver();
     }
-    @AfterMethod
-    public void tearDownMethod(ITestResult result) throws IOException {
-        if (result.getStatus() == ITestResult.FAILURE) {//When test case fails, then take the screenshot and attached the report
-            String screenshotLocation = ReusableMethods.getScreenshot(result.getName());//getScreenshot is coming from ReusableMethods
-            extentTest.fail(result.getName());
-            extentTest.addScreenCaptureFromPath(screenshotLocation);//adding the screenshot to the report
-            extentTest.fail(result.getThrowable());
-        } else if (result.getStatus() == ITestResult.SKIP) {
-            extentTest.skip("Test Case is skipped: " + result.getName());
-        }
-    }
+//    @AfterTest
+//    public void tearDownTest(){
+//        extentReports.flush();
+//    }
+//    @AfterMethod
+//    public void tearDownMethod(ITestResult result) throws IOException {
+//        if (result.getStatus() == ITestResult.FAILURE) {//When test case fails, then take the screenshot and attached the report
+//            String screenshotLocation = ReusableMethods.getScreenshot(result.getName());//getScreenshot is coming from ReusableMethods
+//            extentTest.fail(result.getName());
+//            extentTest.addScreenCaptureFromPath(screenshotLocation);//adding the screenshot to the report
+//            extentTest.fail(result.getThrowable());
+//        } else if (result.getStatus() == ITestResult.SKIP) {
+//            extentTest.skip("Test Case is skipped: " + result.getName());
+//        }
+//    }
 }
 //Deneme
 //deneme_local'den reset'ten sonra
