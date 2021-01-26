@@ -23,79 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US027Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US027Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DemogaWebTablesButtonsLinksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/DemogaWebTablesButtonsLinksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DemoqaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/DemoqaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/FormsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US010Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US010Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US012Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US012Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US013Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US013Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US014Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US014Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US015Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US015Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US016Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US016Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US017Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US017Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US018Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US018Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US019Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US019Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US020Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US020Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US021Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US021Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US022Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US022Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US023Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US023Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US024Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US024Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US025Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US025Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US026Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US026Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US027Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US028Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US028Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US029Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US029Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US030Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US030Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US031Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/US031Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/US032Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/UploadDynamicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesDemoqa/UploadDynamicPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CountryesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/CountryesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DemoqaElementsCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/DemoqaElementsCheckbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DemoqaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/DemoqaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/InformationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/StudentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US001Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US001Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US002Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US002Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US003Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US003Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US004Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US004Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US005Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US005Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US006Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US006Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US007Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US007Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US008Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US008Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US009Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US009Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US010Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US010Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US011Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US011Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US012Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US012Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US013Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US013Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US014Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US014Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US015Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US015Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US016Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US016Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US017Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US017Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US018Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US018Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US019Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US019Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US020Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US020Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US021Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US021Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US022Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US022Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US023Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US023Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US024Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US024Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US025Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US025Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US026Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US026Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US027Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US028Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US028Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US029Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US029Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US030Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US030Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US031Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsDemoqa/US031Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US032Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DemoqaPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,27 +64,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teamDort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/apiTestAndPojos" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.US021Test and 10 more">
-    <configuration name="US013Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samet\IdeaProjects\demoqa\src\test\java\apiTestAndPojos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DemoqaDers1Post.TC0101">
+    <configuration name="DemoqaDers1Post.TC0101" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testsDemoqa.*" />
+          <option name="PATTERN" value="apiTestAndPojos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testsDemoqa" />
-      <option name="MAIN_CLASS_NAME" value="testsDemoqa.US013Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="apiTestAndPojos" />
+      <option name="MAIN_CLASS_NAME" value="apiTestAndPojos.DemoqaDers1Post" />
+      <option name="METHOD_NAME" value="TC0101" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -240,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DemoqaDers1Post.TC0101" />
         <item itemvalue="TestNG.US021Test and 10 more" />
         <item itemvalue="TestNG.US017Test.tc091" />
         <item itemvalue="TestNG.US017Test" />
         <item itemvalue="TestNG.US014Test and 6 more" />
-        <item itemvalue="TestNG.US013Test" />
       </list>
     </recent_temporary>
   </component>
