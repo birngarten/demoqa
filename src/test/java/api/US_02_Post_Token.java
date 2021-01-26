@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
-public class US_02_Post_Demoqa {
+public class US_02_Post_Token {
 
     String username = "Maria";
     String password = "Maria123!";

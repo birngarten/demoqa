@@ -17,7 +17,7 @@ import static io.restassured.RestAssured.given;
 
 import static org.testng.Assert.assertEquals;
 
-public class DemoqaDers1Post {
+public class US_01_Post_Autorized {
     Response response;
     String endpoint = "https://demoqa.com/Account/v1/Authorized";
     DemoqaDers1PostPojo obj = new DemoqaDers1PostPojo();
