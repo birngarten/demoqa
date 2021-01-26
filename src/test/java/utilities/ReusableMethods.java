@@ -1,6 +1,8 @@
 package utilities;
 
 
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -17,6 +19,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
+
+import static io.restassured.RestAssured.*;
 
 public class ReusableMethods {
     public static String getScreenshot(String name) throws IOException {
@@ -166,6 +170,18 @@ public class ReusableMethods {
             hex = "#" + Integer.toHexString(r) + Integer.toHexString(g) + Integer.toHexString(b);
         }
         return hex;
+    }
+
+    //---------demoqaPostApı-------------//
+    public static Response myPostResponse(Object myBody, String endpoint){
+        Response response;
+        response = given()
+                .contentType(ContentType.JSON)
+                .auth().basic("samet1","ABCabc987+%&")
+                .body(myBody)
+                .when()
+                .post(endpoint);
+        return response;
     }
 
 

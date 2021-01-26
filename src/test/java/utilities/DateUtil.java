@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateUtil {
+
     // MMMM dd, yyy  --> February 17, 2019
     public static String todaysDate(){
         String today = new SimpleDateFormat("MMMM dd, yyy").format(new Date());
