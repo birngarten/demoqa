@@ -172,7 +172,7 @@ public class US_04_UserID_Delete {
 
     }
     //basic authorization ile delete mümkün degildir.
-    //status codun 401 gelen message'in User is unauthorized! oldugunu kontrol edelim
+    //status codun 401 gelen message'in User not authorized! oldugunu kontrol edelim
     @Test
     public void deleteWithCorrectIDAndBasicAuthorization(){
         String endpoint ="https://demoqa.com/Account/v1/User/"+UserID();
