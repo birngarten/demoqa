@@ -23,98 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/deneme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/US_02_Post_Demoqa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_01_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_02_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_03_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_04_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_05_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_06_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_07_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_08_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_09_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_10_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_11_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_12_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_13_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_14_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_15_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_16_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_17_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_18_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_19_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_20_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_21_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_22_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_23_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_24_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_25_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_26_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_27_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_28_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_29_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_30_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_31_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_33_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_06_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_07_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_09_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_15_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_16_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_18_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_19_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_20_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_21_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_23_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_24_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_25_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_26_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_27_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_28_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_29_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_30_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_33_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029100744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029102641.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029103021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19620201028094634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19820201028095918.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19920201028101428.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_12220201029095951.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105648.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105842.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../globaltrader" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -165,11 +75,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tests" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utilities" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\tests" />
@@ -311,32 +221,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1603319739474" />
-    <state x="463" y="85" key="FileChooserDialogImpl" timestamp="1604316830942">
+    <state x="463" y="85" key="FileChooserDialogImpl" timestamp="1611777930285">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604316830942" />
-    <state width="1323" height="295" key="GridCell.Tab.0.bottom" timestamp="1611696602841">
+    <state x="463" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611777930285" />
+    <state width="1323" height="295" key="GridCell.Tab.0.bottom" timestamp="1611700305614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
+    <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611700305614" />
     <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="295" key="GridCell.Tab.0.center" timestamp="1611696602841">
+    <state width="1323" height="295" key="GridCell.Tab.0.center" timestamp="1611700305613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
+    <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611700305612" />
     <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="295" key="GridCell.Tab.0.left" timestamp="1611696602840">
+    <state width="1323" height="295" key="GridCell.Tab.0.left" timestamp="1611700305609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611696602840" />
+    <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611700305609" />
     <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688401" />
     <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118346" />
-    <state width="1323" height="295" key="GridCell.Tab.0.right" timestamp="1611696602841">
+    <state width="1323" height="295" key="GridCell.Tab.0.right" timestamp="1611700305613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
+    <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611700305613" />
     <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
     <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
     <state x="339" y="163" key="run.anything.popup" timestamp="1603480054524">
