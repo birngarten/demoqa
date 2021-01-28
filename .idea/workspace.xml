@@ -23,98 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/deneme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/US_02_Post_Demoqa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_01_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_02_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_03_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_04_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_05_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_06_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_07_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_08_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_09_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_10_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_11_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_12_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_13_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_14_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_15_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_16_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_17_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_18_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_19_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_20_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_21_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_22_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_23_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_24_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_25_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_26_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_27_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_28_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_29_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_30_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_31_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_33_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_06_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_07_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_09_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_15_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_16_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_18_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_19_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_20_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_21_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_23_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_24_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_25_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_26_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_27_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_28_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_29_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_30_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_33_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029100744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029102641.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029103021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19620201028094634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19820201028095918.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19920201028101428.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_12220201029095951.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105648.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105842.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/US_01_Post_Autorized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/US_01_Post_Autorized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +44,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/tests/US_10_Test.java" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1gYup980kLRBxdjoTnIQvuFmqFb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -176,61 +80,7 @@
       <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_02_Post_Demoqa.TC0204">
-    <configuration name="US_02_Post_Demoqa.TC0201" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_02_Post_Demoqa" />
-      <option name="METHOD_NAME" value="TC0201" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_02_Post_Demoqa.TC0202" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_02_Post_Demoqa" />
-      <option name="METHOD_NAME" value="TC0202" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_02_Post_Demoqa.TC0203" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_02_Post_Demoqa" />
-      <option name="METHOD_NAME" value="TC0203" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.US_03_Post_Post.TC01">
     <configuration name="US_02_Post_Demoqa.TC0204" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -249,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deneme.TC0204" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_03_Post_Post.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -258,8 +108,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.deneme" />
-      <option name="METHOD_NAME" value="TC0204" />
+      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
+      <option name="METHOD_NAME" value="TC01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_03_Post_Post.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
+      <option name="METHOD_NAME" value="TC02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_03_Post_Post.TC03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
+      <option name="METHOD_NAME" value="TC03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_03_Post_Post.TC04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
+      <option name="METHOD_NAME" value="TC04" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -269,18 +173,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_03_Post_Post.TC01" />
+        <item itemvalue="TestNG.US_03_Post_Post.TC04" />
+        <item itemvalue="TestNG.US_03_Post_Post.TC03" />
+        <item itemvalue="TestNG.US_03_Post_Post.TC02" />
         <item itemvalue="TestNG.US_02_Post_Demoqa.TC0204" />
-        <item itemvalue="TestNG.US_02_Post_Demoqa.TC0203" />
-        <item itemvalue="TestNG.US_02_Post_Demoqa.TC0202" />
-        <item itemvalue="TestNG.US_02_Post_Demoqa.TC0201" />
-        <item itemvalue="TestNG.deneme.TC0204" />
       </list>
     </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -305,47 +209,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603319739474">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1603319739474" />
-    <state x="463" y="85" key="FileChooserDialogImpl" timestamp="1604316830942">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604316830942" />
-    <state width="1323" height="295" key="GridCell.Tab.0.bottom" timestamp="1611696602841">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
-    <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="295" key="GridCell.Tab.0.center" timestamp="1611696602841">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
-    <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state width="1323" height="295" key="GridCell.Tab.0.left" timestamp="1611696602840">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611696602840" />
-    <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688401" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118346" />
-    <state width="1323" height="295" key="GridCell.Tab.0.right" timestamp="1611696602841">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="295" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611696602841" />
-    <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-106.1920.1050@0.0.1366.738" timestamp="1603920688402" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1603230118347" />
-    <state x="339" y="163" key="run.anything.popup" timestamp="1603480054524">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="163" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603480054524" />
-    <state x="346" y="58" width="672" height="669" key="search.everywhere.popup" timestamp="1603406420954">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="58" width="672" height="669" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603406420954" />
   </component>
 </project>
