@@ -25,7 +25,6 @@
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/US_01_Post_Autorized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/US_01_Post_Autorized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +79,8 @@
       <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_03_Post_Post.TC01">
-    <configuration name="US_02_Post_Demoqa.TC0204" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_04_UserID_Delete">
+    <configuration name="US_04_UserID_Delete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +89,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_02_Post_Demoqa" />
-      <option name="METHOD_NAME" value="TC0204" />
+      <option name="MAIN_CLASS_NAME" value="api.US_04_UserID_Delete" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_04_UserID_Delete.del" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_04_UserID_Delete" />
+      <option name="METHOD_NAME" value="del" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_03_Post_Post.TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_04_UserID_Delete.deleteOrnek" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
-      <option name="METHOD_NAME" value="TC01" />
+      <option name="MAIN_CLASS_NAME" value="api.US_04_UserID_Delete" />
+      <option name="METHOD_NAME" value="deleteOrnek" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_03_Post_Post.TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="delete_user.deleteWithCorrectIDAndBasicAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
-      <option name="METHOD_NAME" value="TC02" />
+      <option name="MAIN_CLASS_NAME" value="api.delete_user" />
+      <option name="METHOD_NAME" value="deleteWithCorrectIDAndBasicAuthorization" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_03_Post_Post.TC03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="delete_user.deleteWithWrongUserIDAndCorrectToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
         <pattern>
@@ -144,26 +160,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
-      <option name="METHOD_NAME" value="TC03" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_03_Post_Post.TC04" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_03_Post_Post" />
-      <option name="METHOD_NAME" value="TC04" />
+      <option name="MAIN_CLASS_NAME" value="api.delete_user" />
+      <option name="METHOD_NAME" value="deleteWithWrongUserIDAndCorrectToken" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_03_Post_Post.TC01" />
-        <item itemvalue="TestNG.US_03_Post_Post.TC04" />
-        <item itemvalue="TestNG.US_03_Post_Post.TC03" />
-        <item itemvalue="TestNG.US_03_Post_Post.TC02" />
-        <item itemvalue="TestNG.US_02_Post_Demoqa.TC0204" />
+        <item itemvalue="TestNG.US_04_UserID_Delete" />
+        <item itemvalue="TestNG.US_04_UserID_Delete.deleteOrnek" />
+        <item itemvalue="TestNG.US_04_UserID_Delete.del" />
+        <item itemvalue="TestNG.delete_user.deleteWithWrongUserIDAndCorrectToken" />
+        <item itemvalue="TestNG.delete_user.deleteWithCorrectIDAndBasicAuthorization" />
       </list>
     </recent_temporary>
   </component>
