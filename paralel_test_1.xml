@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Paralel Test 1" parallel="tests" thread-count="2">
+    <test name="Ozkan.a">
+        <classes>
+            <class name="tests.US_01_Test"></class>
+            <class name="tests.US_02_Test"></class>
+            <class name="tests.US_03_Test"></class>
+            <class name="tests.US_04_Test"></class>
+        </classes>
+    </test>
+</suite>

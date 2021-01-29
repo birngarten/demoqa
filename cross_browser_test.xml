@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoqa" verbose="2">
+    <test name="Chrome ile test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.US_05_Test"></class>
+        </classes>
+    </test>
+    <test name="Firefox ile test">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.US_05_Test"></class>
+        </classes>
+    </test>
+</suite>
