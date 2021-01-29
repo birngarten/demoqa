@@ -24,9 +24,25 @@ public class Book {
     @JsonProperty("website")
     private String website;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
     public Book() {
     }
 
+    /**
+     *
+     * @param website
+     * @param pages
+     * @param subTitle
+     * @param author
+     * @param isbn
+     * @param publishDate
+     * @param publisher
+     * @param description
+     * @param title
+     */
     public Book(String isbn, String title, String subTitle, String author, String publishDate, String publisher, Integer pages, String description, String website) {
         super();
         this.isbn = isbn;
