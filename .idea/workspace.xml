@@ -23,98 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/deneme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/US_02_Post_Demoqa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_01_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_02_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_03_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_04_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_05_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_06_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_07_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_08_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_09_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_10_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_11_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_12_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_13_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_14_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_15_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_16_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_17_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_18_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_19_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_20_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_21_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_22_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_23_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_24_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_25_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_26_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_27_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_28_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_29_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_30_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_31_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/US_33_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_01_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_02_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_03_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_04_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_05_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_06_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_07_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_08_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_09_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_10_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_11_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_12_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_13_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_14_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_15_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_16_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_17_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_18_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_19_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_20_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_21_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_22_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_23_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_24_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_25_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_26_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_27_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_28_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_29_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_30_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_31_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/US_33_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029100744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029102641.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC01620201029103021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19620201028094634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19820201028095918.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC19920201028101428.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_0120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_1120201029102958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_12220201029095951.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_18720201027101500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105648.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/TC_19220201027105842.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +189,7 @@
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
