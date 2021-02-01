@@ -25,9 +25,6 @@
     <list default="true" id="9f5a0164-b851-4feb-8748-2e638892eb49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demoqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demoqa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/US_05_Get_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/US_05_Get_Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/DemoqaGetPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/DemoqaGetPojo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,61 +79,7 @@
       <recent name="C:\Users\saltu\IdeaProjects\demoqa\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_05_Get_Account.TC0504">
-    <configuration name="US_05_Get_Account.TC0502" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_05_Get_Account" />
-      <option name="METHOD_NAME" value="TC0502" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_05_Get_Account.TC0503 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_05_Get_Account" />
-      <option name="METHOD_NAME" value="TC0503" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US_05_Get_Account.TC0503" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoqa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.US_05_Get_Account" />
-      <option name="METHOD_NAME" value="TC0503" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.US_06_Get_BookStore.TC0604">
     <configuration name="US_05_Get_Account.TC0504 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoqa" />
       <extension name="coverage">
@@ -173,13 +116,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_06_Get_BookStore.TC0602" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_06_Get_BookStore" />
+      <option name="METHOD_NAME" value="TC0602" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_06_Get_BookStore.TC0603" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_06_Get_BookStore" />
+      <option name="METHOD_NAME" value="TC0603" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_06_Get_BookStore.TC0604" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.US_06_Get_BookStore" />
+      <option name="METHOD_NAME" value="TC0604" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_06_Get_BookStore.TC0604" />
+        <item itemvalue="TestNG.US_06_Get_BookStore.TC0603" />
+        <item itemvalue="TestNG.US_06_Get_BookStore.TC0602" />
         <item itemvalue="TestNG.US_05_Get_Account.TC0504" />
         <item itemvalue="TestNG.US_05_Get_Account.TC0504 (1)" />
-        <item itemvalue="TestNG.US_05_Get_Account.TC0503" />
-        <item itemvalue="TestNG.US_05_Get_Account.TC0503 (1)" />
-        <item itemvalue="TestNG.US_05_Get_Account.TC0502" />
       </list>
     </recent_temporary>
   </component>
