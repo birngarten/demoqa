@@ -70,7 +70,9 @@ public class US_01_Post_Autorized {
         obj.setPassword("JQ3iPpTEKTLjSQJ!");
         assertEquals(myPostResponse(obj).prettyPrint(),"true");
         //Assert.assertEquals(myPostResponse(obj).getStatusCode(),200);
-        myPostResponse(obj).then().assertThat().statusCode(HttpStatus.SC_OK).contentType(ContentType.JSON);
+        myPostResponse(obj).then().
+                            assertThat().statusCode(HttpStatus.SC_OK).
+                            contentType(ContentType.JSON);
     }
     @Test
     public void TC0102(){

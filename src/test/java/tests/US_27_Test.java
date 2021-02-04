@@ -227,7 +227,11 @@ public class US_27_Test extends TestBase {
         us27.droppedAllSubLinks.get(3).click();
         ReusableMethods.waitFor(2);
 
+
+        actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.revertableBox).release().perform();
+
         actions.clickAndHold(us27.notRevertableBox).moveToElement(us27.revertDroppableBox).release().perform();
+
 
         ReusableMethods.waitFor(1);
 

@@ -60,6 +60,11 @@ public class TestBase {
             extentTest.skip("Test Case is skipped: " + result.getName());
         }
     }
+
+    @AfterMethod
+    public void tearDownMethod2(){
+        Driver.closeDriver();
+    }
 }
 //Deneme
 //deneme_local'den reset'ten sonra
