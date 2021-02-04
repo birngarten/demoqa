@@ -1,6 +1,8 @@
 package utilities;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class DateUtil {
@@ -24,6 +26,17 @@ public class DateUtil {
     public static String todaysDate4(){
         String today = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
         return today;
+    }
+    //demoqa icin kullandığımız method
+    public static String returnTime(){
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("E, dd MMM yyy");
+        LocalDateTime now = LocalDateTime.now();
+        //        yyyy-MM-dd	"1988-09-29"
+//        dd/MM/yyyy	"29/09/1988"
+//        dd-MMM-yyyy	"29-Sep-1988"
+//        E, MMM dd yyyy	"Thu, Sep 29 1988"
+//         E, dd MMM yyy HH:mm:ss 'GMT'
+        return dtf.format(now);
     }
 
 }
