@@ -11,6 +11,7 @@ import java.util.List;
 public class DemogaWebTablesButtonsLinksPage {
     public DemogaWebTablesButtonsLinksPage(){
         PageFactory.initElements(Driver.getDriver(),this);
+
     }
 
     @FindBy(xpath = "//a[@href='https://demoqa.com']")
